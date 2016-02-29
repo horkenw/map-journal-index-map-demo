@@ -377,8 +377,8 @@
 				'esri/map',
 				'esri/layers/CSVLayer',
 				'esri/Color',
-        'esri/symbols/SimpleMarkerSymbol',
-        'esri/renderers/UniqueValueRenderer',
+				'esri/symbols/SimpleMarkerSymbol',
+				'esri/renderers/UniqueValueRenderer',
 			], function(
 				topic,
 				array,
@@ -440,7 +440,7 @@
 
 					// Create simple point symbols
 					var activeMarker =  new SimpleMarkerSymbol('solid', 15, null, activeMarkerColor);
-	        var defaultMarker = new SimpleMarkerSymbol('solid', 12, null, defaultMarkerColor);
+					var defaultMarker = new SimpleMarkerSymbol('solid', 12, null, defaultMarkerColor);
 
 					// Change the CSV Layer renderer to use the symbols we just created
 					var renderer = new UniqueValueRenderer(defaultMarker,ActiveField);
