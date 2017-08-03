@@ -20,13 +20,19 @@ define({
       "cfgMedium": "Médio",
       "cfgLarge": "Grande",
       "socialLinksLabel": "Exibir links de compartilhamento na parte inferior de cada seção",
-      "socialLinksDescr": "Isto permite que os leitores façam referência e promovam seções específicas do seu %TPL_NAME%. Por exemplo, se você utilizar um ícone para compartilhar seções, os leitores verificarão a seção %TPL_NAME% específica, ao invés do começo da sua história. Seus leitores podem utilizar o link de mídia social na seção de título para promover o seu %TPL_NAME% inteiro (guia cabeçalho) e tê-lo no início do %TPL_NAME%."
+      "socialLinksDescr": "Isto permite que os leitores façam referência e promovam seções específicas do seu %TPL_NAME%. Por exemplo, se você utilizar um ícone para compartilhar seções, os leitores verificarão a seção %TPL_NAME% específica, ao invés do começo da sua história. Seus leitores podem utilizar o link de mídia social na seção de título para promover o seu %TPL_NAME% inteiro (guia cabeçalho) e tê-lo no início do %TPL_NAME%.",
+      "socialDisabled": "Este recurso está disponível somente com layout do Painel Flutuante",
+      "socialWarning": "Sua história está utilizando o layout de Painel Lateral, mas agora recomendamos utilizar esta opção somente com layout de Painel Flutuante para evitar um erro onde o painel não pode posicionar propriamente na seção desejada para narrativas com imagens. Você pode continuar a utilizar esta opção, mas se você desativá-la, ela então estará disponível somente quando utilizar o layout de Painel Flutuante."
     },
     "settingsLayoutFonts": {
       "title": "Fontes",
       "defaultLbl": "Padrão",
       "sectionTitleLbl": "Título da seção",
       "sectionContentLbl": "Conteúdo da seção"
+    },
+    "settingsThemeOptions": {
+      "lblOrgTheme": "Tema da Organização",
+      "lblModTheme": "Tema Atual"
     },
     "initPopup": {
       "title": "Bem-Vindo ao"
@@ -50,9 +56,9 @@ define({
     },
     "addEditViewText": {
       "editorPlaceholder": "Adicione texto, links e pequenos gráficos aqui.",
-      "editorActionsTitle": "Ações do Nível Principal",
-      "editorActionsHelpDescr": "Utilize estes controles para criar links que vão mudar o nível principal. Por exemplo, quando o leitor clicar em um link, você poderá desejar o zoom no mapa em local específico, exibir um outro mapa da web ou exibir uma imagem.",
-      "mainStageDisabled": "As Ações do Nível Principal são desabilitadas quando o editor é maximizado"
+      "editorActionsTitle": "Ações da História",
+      "editorActionsHelpDescr": "Cria links na sua narrativa que ajudam a contar sua história. Uma Ação da História pode vincular outra seção ou alterar a fase principal. Por exemplo, você pode configurar uma ação para mover o mapa para outro local, ativar ou desativar camadas do mapa, ou alterar a mídia da fase principal para uma imagem, vídeo, mapa ou página da web diferente.",
+      "mainStageDisabled": "As Ações da História são desativadas quando o editor é maximizado"
     },
     "organizePopup": {
       "title": "Organizar",
@@ -66,7 +72,7 @@ define({
       "firstSectionExplain": "(A seção local não pode ser movida)",
       "exportMainStage": "Conteúdo do Nível Principal",
       "exportPanel": "Conteúdo do Painel",
-      "exportActions": "Ações do Nível Principal"
+      "exportActions": "Ações da história"
     },
     "exportData": {
       "btn": "Exportar conteúdo",

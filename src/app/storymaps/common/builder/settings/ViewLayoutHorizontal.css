@@ -26,6 +26,7 @@
 	cursor: pointer;
 	opacity: 0.9;
 	margin-left: 4px;
+	max-width: 232px;
 	transition: opacity .25s ease-in-out;
    -moz-transition: opacity .25s ease-in-out;
    -webkit-transition: opacity .25s ease-in-out;
@@ -104,9 +105,9 @@
 }
 
 /*
- * Link to live app 
+ * Link to live app
  */
- 
+
 .settings-layout-horizontal .layout-live {
  	visibility: visible;
  	font-size: 0.8em;
@@ -120,7 +121,7 @@
 /*
  * Start
  */
- 
+
 .settings-layout-horizontal .start-btn-container {
 	margin-top: 15px;
 	margin-bottom: -18px;

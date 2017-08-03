@@ -20,13 +20,19 @@ define({
       "cfgMedium": "Medio",
       "cfgLarge": "Grande",
       "socialLinksLabel": "Visualizza i collegamenti per la condivisione nella parte inferiore di ogni sezione",
-      "socialLinksDescr": "In questo modo i lettori possono fare riferimento e dare maggiore risalto a sezioni specifiche di %TPL_NAME%. Se ad esempio si utilizza un'icona per condividere le sezioni, i lettori potranno passare direttamente a tale sezione specifica di %TPL_NAME% anziché partire dall'inizio della storia. I lettori possono utilizzare il collegamento ai social media nella sezione del titolo per promuovere la scheda di intestazione di %TPL_NAME% e posizionarsi all'inizio di %TPL_NAME%."
+      "socialLinksDescr": "In questo modo i lettori possono fare riferimento e dare maggiore risalto a sezioni specifiche di %TPL_NAME%. Se ad esempio si utilizza un'icona per condividere le sezioni, i lettori potranno passare direttamente a tale sezione specifica di %TPL_NAME% anziché partire dall'inizio della storia. I lettori possono utilizzare il collegamento ai social media nella sezione del titolo per promuovere la scheda di intestazione di %TPL_NAME% e posizionarsi all'inizio di %TPL_NAME%.",
+      "socialDisabled": "Questa feature è disponibile solo con layout Pannello mobile",
+      "socialWarning": "La storia utilizza il layout Pannello laterale, ma si consiglia attualmente di utilizzare questa opzione solo con layout Pannello mobile per evitare un problema quando il pannello potrebbe non posizionarsi automaticamente nella sezione desiderata per racconti con immagini. È possibile continuare a utilizzare questa opzione, ma se viene disabilitata, sarà solo disponibile quando si utilizza il layout Pannello mobile."
     },
     "settingsLayoutFonts": {
       "title": "Caratteri",
       "defaultLbl": "Predefinito",
       "sectionTitleLbl": "Titolo sezione",
       "sectionContentLbl": "Contenuto sezione"
+    },
+    "settingsThemeOptions": {
+      "lblOrgTheme": "Tema organizzazione",
+      "lblModTheme": "Tema corrente"
     },
     "initPopup": {
       "title": "Benvenuti a"
@@ -50,9 +56,9 @@ define({
     },
     "addEditViewText": {
       "editorPlaceholder": "Aggiungere qui testo, collegamenti ed elementi grafici di piccole dimensioni.",
-      "editorActionsTitle": "Azioni visualizzazione principale",
-      "editorActionsHelpDescr": "Utilizzare questi controlli per creare collegamenti che consentono di cambiare la visualizzazione principale. Ad esempio, quando il lettore fa clic su un collegamento, è possibile fare in modo che venga applicato lo zoom a una posizione specifica della mappa oppure che venga visualizzata un'altra mappa Web o un'immagine.",
-      "mainStageDisabled": "Le azioni della Visualizzazione principale sono disabilitate quando l'editor è visualizzato a schermo intero"
+      "editorActionsTitle": "Azioni storia",
+      "editorActionsHelpDescr": "Creare collegamenti all'interno della narrazione per facilitare la descrizione della storia. L'azione storia può essere collegata a un'altra sezione oppure modificare la visualizzazione principale. Ad esempio, è possibile configurare un'azione in modo da spostare la mappa in una posizione diversa, attivare/disattivare i layer mappa oppure modificare il supporto della visualizzazione principale su un'immagine, un video, una mappa o una pagina Web diversi.",
+      "mainStageDisabled": "Le azioni storia sono disabilitate quando l'editor è visualizzato a schermo intero"
     },
     "organizePopup": {
       "title": "Organizza",
@@ -66,7 +72,7 @@ define({
       "firstSectionExplain": "(La prima sezione non può essere spostata)",
       "exportMainStage": "Contenuti visualizzazione principale",
       "exportPanel": "Contenuti pannello",
-      "exportActions": "Azioni visualizzazione principale"
+      "exportActions": "Azioni storia"
     },
     "exportData": {
       "btn": "Esporta contenuti",

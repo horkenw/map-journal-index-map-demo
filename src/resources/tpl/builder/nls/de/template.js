@@ -20,13 +20,19 @@ define({
       "cfgMedium": "Mittel",
       "cfgLarge": "Groß",
       "socialLinksLabel": "Freigabe-Links im unteren Bereich jedes Abschnitts anzeigen",
-      "socialLinksDescr": "Auf diese Weise können Leser bestimmte Abschnitte von %TPL_NAME% referenzieren und bewerben. Wenn Sie beispielsweise das Freigabesymbol eines Abschnitts verwenden, gelangen Benutzer zu diesem bestimmten Abschnitt von %TPL_NAME%, statt zum Anfang Ihrer Story. Ihre Leser können den Link zu sozialen Medien im Titelabschnitt verwenden, um %TPL_NAME% vollständig (Registerkarte \"Kopfzeile\") zu bewerben, und am Anfang von %TPL_NAME% zu landen."
+      "socialLinksDescr": "Auf diese Weise können Leser bestimmte Abschnitte von %TPL_NAME% referenzieren und bewerben. Wenn Sie beispielsweise das Freigabesymbol eines Abschnitts verwenden, gelangen Benutzer zu diesem bestimmten Abschnitt von %TPL_NAME%, statt zum Anfang Ihrer Story. Ihre Leser können den Link zu sozialen Medien im Titelabschnitt verwenden, um %TPL_NAME% vollständig (Registerkarte \"Kopfzeile\") zu bewerben, und am Anfang von %TPL_NAME% zu landen.",
+      "socialDisabled": "Dieses Feature ist nur mit dem Layout für unverankerte Bereiche verfügbar.",
+      "socialWarning": "Ihre Story verwendet das Layout \"Seitenbereich\", jetzt wird jedoch empfohlen, diese Option nur dann mit dem Layout für unverankerte Bereiche zu verwenden, wenn vermieden werden soll, dass sich der Bereich möglicherweise nicht im gewünschten Abschnitt für Zusammenfassungen mit Bildern positionieren lässt. Sie können diese Option zwar weiterhin verwenden, wenn sie jedoch deaktiviert wird, ist sie nur bei Verwendung des Layouts für unverankerte Bereiche verfügbar."
     },
     "settingsLayoutFonts": {
       "title": "Schriftarten",
       "defaultLbl": "Standard",
       "sectionTitleLbl": "Abschnittstitel",
       "sectionContentLbl": "Abschnittsinhalt"
+    },
+    "settingsThemeOptions": {
+      "lblOrgTheme": "Design der Organisation",
+      "lblModTheme": "Aktuelles Design"
     },
     "initPopup": {
       "title": "Willkommen bei"
@@ -36,7 +42,7 @@ define({
       "titleAdd": "Abschnitt hinzufügen",
       "titleAddHome": "Abschnitt für die Startseite hinzufügen",
       "titleEdit": "Abschnitt bearbeiten",
-      "step": "Step",
+      "step": "Schritt",
       "stepMainStageExplain": "Inhalt der Hauptanzeige",
       "stepPanelExplain": "Inhalt",
       "stepMainStageNextTooltip": "Den Abschnittstitel eingeben und den Inhalt der Hauptanzeige auswählen",
@@ -50,9 +56,9 @@ define({
     },
     "addEditViewText": {
       "editorPlaceholder": "Text, Links und kleine Grafiken hier hinzufügen.",
-      "editorActionsTitle": "Aktionen der Hauptanzeige",
-      "editorActionsHelpDescr": "Verwenden Sie diese Steuerelemente, um Links zu erstellen, die die Hauptanzeige ändern. Wenn der Leser beispielsweise auf einen Link klickt, können Sie auf der Karte auf eine bestimmte Position zoomen, eine andere Webkarte oder ein Bild anzeigen.",
-      "mainStageDisabled": "Aktionen der Hauptanzeige sind deaktiviert, wenn der Editor maximiert wird"
+      "editorActionsTitle": "Story-Aktionen",
+      "editorActionsHelpDescr": "Erstellen Sie Links in Ihrer Story, die beim Präsentieren der Informationen hilfreich sind. Eine Story-Aktion kann auf einen anderen Abschnitt verweisen oder den Hauptbereich ändern. Beispielsweise können Sie eine Aktion konfigurieren, um die Karte an einen anderen Platz zu verschieben, Karten-Layer zu aktivieren/deaktivieren oder als Medium für den Hauptbereich ein anderes Bild, Video bzw. eine andere Karte oder Website darzustellen.",
+      "mainStageDisabled": "Story-Aktionen werden deaktiviert, wenn der Editor maximiert wird"
     },
     "organizePopup": {
       "title": "Organisieren",
@@ -66,7 +72,7 @@ define({
       "firstSectionExplain": "(Der Startseitenabschnitt kann nicht verschoben werden)",
       "exportMainStage": "Inhalt der Hauptanzeige",
       "exportPanel": "Bereichsinhalt",
-      "exportActions": "Aktionen der Hauptanzeige"
+      "exportActions": "Story-Aktionen"
     },
     "exportData": {
       "btn": "Inhalt exportieren",

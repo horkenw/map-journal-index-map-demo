@@ -20,13 +20,19 @@ define({
       "cfgMedium": "중간",
       "cfgLarge": "대",
       "socialLinksLabel": "각 섹션의 하단에 공유 링크 표시",
-      "socialLinksDescr": "사용자가 %TPL_NAME%의 특정 섹션을 참조하고 홍보할 수 있도록 합니다. 예를 들어 섹션 공유 아이콘을 사용하는 경우 사용자는 스토리 시작 부분 대신 특정 %TPL_NAME% 섹션으로 이동합니다. 사용자는 제목 섹션에 있는 소셜 미디어 링크를 사용하여 전체 %TPL_NAME%(머리글 탭)을(를) 홍보하고 %TPL_NAME% 시작 부분에 둘 수 있습니다."
+      "socialLinksDescr": "사용자가 %TPL_NAME%의 특정 섹션을 참조하고 홍보할 수 있도록 합니다. 예를 들어 섹션 공유 아이콘을 사용하는 경우 사용자는 스토리 시작 부분 대신 특정 %TPL_NAME% 섹션으로 이동합니다. 사용자는 제목 섹션에 있는 소셜 미디어 링크를 사용하여 전체 %TPL_NAME%(머리글 탭)을(를) 홍보하고 %TPL_NAME% 시작 부분에 둘 수 있습니다.",
+      "socialDisabled": "이 기능은 플로팅 패널 레이아웃으로만 지원됨",
+      "socialWarning": "스토리에는 사이트 패널이 사용되고 있습니다. 하지만 이미지가 포함된 이야기의 원하는 섹션에 패널이 배치되지 못하는 문제를 방지하기 위해서는 이 옵션을 플로팅 패널 레이아웃으로만 사용하는 것이 좋습니다. 이 옵션을 계속해서 사용할 수 있지만 비활성화할 경우 플로팅 패널 레이아웃이 사용되는 경우에만 제공됩니다."
     },
     "settingsLayoutFonts": {
       "title": "글꼴",
       "defaultLbl": "기본값",
       "sectionTitleLbl": "섹션 제목",
       "sectionContentLbl": "섹션 콘텐츠"
+    },
+    "settingsThemeOptions": {
+      "lblOrgTheme": "기관 테마",
+      "lblModTheme": "현재 테마"
     },
     "initPopup": {
       "title": "시작"
@@ -50,9 +56,9 @@ define({
     },
     "addEditViewText": {
       "editorPlaceholder": "여기에 텍스트, 링크 및 작은 그래픽을 추가합니다.",
-      "editorActionsTitle": "기본 단계 작업",
-      "editorActionsHelpDescr": "이 컨트롤을 사용하여 기본 단계를 변경할 링크를 생성합니다. 예를 들어, 사용자가 링크를 클릭하면 특정 위치로 맵이 확대되거나, 다른 웹 맵이 표시되거나, 이미지가 표시되도록 할 수 있습니다.",
-      "mainStageDisabled": "편집기가 최대화되어 있는 경우 기본 단계 작업을 사용할 수 없습니다."
+      "editorActionsTitle": "스토리 작업",
+      "editorActionsHelpDescr": "스토리를 전달하는 데 유용한 설명에 링크를 만드세요. 스토리 작업을 수행하면 다른 섹션으로 연결하거나 기본 단계를 변경할 수 있습니다. 예를 들어 다른 위치로 맵을 이동하거나, 맵 레이어 켜기/끄기를 전환하거나, 주요 단계 미디어를 다른 이미지, 비디오, 맵 또는 웹 페이지로 변경하도록 작업을 구성할 수 있습니다.",
+      "mainStageDisabled": "편집기가 최대화되어 있는 경우 스토리 작업이 비활성화됩니다."
     },
     "organizePopup": {
       "title": "구성",
@@ -66,7 +72,7 @@ define({
       "firstSectionExplain": "(홈 섹션은 이동할 수 없음)",
       "exportMainStage": "기본 단계 콘텐츠",
       "exportPanel": "패널 콘텐츠",
-      "exportActions": "기본 단계 작업"
+      "exportActions": "스토리 작업"
     },
     "exportData": {
       "btn": "콘텐츠 내보내기",

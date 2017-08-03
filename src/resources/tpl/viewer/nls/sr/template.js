@@ -34,16 +34,22 @@ define({
       "notAuthorizedBuilder": "Nemate ovlašćenje da koristite alatku za izradu %TPL_NAME%.",
       "noBuilderIE": "Alatka za izradu nije podržana na pregledaču Internet Explorer pre verzije %VERSION%. %UPGRADE%",
       "noViewerIE": "Priča nije podržana na pregledaču Internet Explorer pre verzije %VERSION%. %UPGRADE%",
+      "noViewerIE2": "Pokušavate da vidite ovu priču korišćenjem starog, nepodržanog pregledača. Možda neka svojstva neće raditi ili će doći do drugih nepredviđenih problema. Predlažemo da nadogradite na Internet Explorer 11 ili da koristite drugi pregledač, kao što je Chrome.",
+      "noViewerIE3": "Krajem 2017. godine, učitavanje ove priče na ovom pregledaču neće biti moguće. Tada ćete morati da koristite podržani pregledač kako biste videli priču.",
       "upgradeBrowser": "<a href=’http://browsehappy.com/’ target=’_blank’>Ažurirajte pregledač</a>.",
       "mapLoadingFail": "Došlo je do greške, mapa se nije učitala pravilno.",
-      "signOut": "Odjavite se"
+      "signOut": "Odjavite se",
+      "print0": "Žao nam je, ovu priču nije moguće štampati.",
+      "print1": "Da biste odštampali ovu priču, upotrebite dugme za štampanje koje se nalazi u dijalogu za deljenje.",
+      "print2": "Žao nam je, verzija ove priče koja može da se štampa je uglavnom dostupna putem dijaloga za deljenje, ali je autor onemogućio ovaj dijalog.",
+      "attention": "Napomena!"
     },
     "mobileView": {
       "tapForDetails": "Dodirnite za detalje",
       "clickForDetails": "Saznaj više",
       "swipeToExplore": "Brzo prevucite da istražite",
-      "tapForMap": "Dodirnite da se vratite na mapu",
-      "clickForMap": "NAZAD U MAPU"
+      "tapForMap": "Dodirnite da biste se vratili",
+      "clickForMap": "NAZAD"
     },
     "floatLayout": {
       "scroll": "Pomerajte"
@@ -52,7 +58,9 @@ define({
       "scroll": "Pomerajte za više."
     },
     "mainStage": {
-      "back": "Nazad"
+      "back": "Nazad",
+      "errorDeleted": "Ova veza nije aktivna (odeljak je izbrisan)",
+      "errorNotPublished": "Ova veza nije aktivna (odeljak nije objavljen)"
     },
     "headerFromCommon": {
       "storymapsText": "Story mapa",
@@ -85,7 +93,17 @@ define({
       "autoplayLabel": "Režim automatske reprodukcije",
       "autoplayExplain1": "Režim automatske reprodukcije će ići kroz priču uobičajenim intervalom. Ovo je idealno na terminalima ili javim ekranima, ali imajte u vidu da u drugim situacijama čitanje priče može da bude otežano. Ova funkcija nije podržana na ekranima malih dimenzija.",
       "autoplayExplain2": "Kada je ovaj režim aktiviran, postoje kontrole da se priča reprodukuje/pauzira i da se prilagodi brzina navigacije.",
-      "linksupdated": "Linkovi su ažurirani!"
+      "linksupdated": "Linkovi su ažurirani!",
+      "print": "Odštampaj",
+      "printInstruction1": "Pre štampanja ove stranice sačekajte da se učita sav sadržaj",
+      "printInstruction1a": "Neki sadržaj možda neće moći da se odštampa dok ne omogućite opciju „Odštampaj boje i slike u pozadini” u dijalogu za podešavanje stranice za štampanje",
+      "printInstruction2": "Ovu stranicu nije moguće podeliti sa drugima, umesto toga podelite ${link}",
+      "link": "link za priču",
+      "printOptPageBreak": "Svaki odeljak počnite na novoj stranici",
+      "makeTextBlack": "Učini sav tekst crnim",
+      "printWarning": "Ovo je odštampana verzija story mape. Dinamički sadržaj kao što su video snimci i interaktivne mape je dostupan samo u verziji na mreži na ${link}",
+      "printMSWarning": "link je dostupan samo u priči na mreži",
+      "printVideoWarning": "Ovaj video snimak može da se prikaže samo u verziji na mreži ove story mape"
     }
   }
 });

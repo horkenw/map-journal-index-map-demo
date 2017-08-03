@@ -20,13 +20,19 @@ define({
       "cfgMedium": "Trung bình",
       "cfgLarge": "Lớn",
       "socialLinksLabel": "Hiển thị liên kết chia sẻ ở cuối mỗi phần",
-      "socialLinksDescr": "Điều này cho phép người đọc tham chiếu và thúc đẩy các phần cụ thể của %TPL_NAME%. Ví dụ: nếu bạn sử dụng một biểu tượng trong phần chia sẻ, người đọc sẽ dừng ở phần %TPL_NAME% cụ thể đó chứ không phải là khi bắt đầu câu chuyện của bạn. Người đọc có thể sử dụng liên kết truyền thông xã hội trong phần tiêu đề để thúc đẩy toàn bộ %TPL_NAME% (tab đầu trang) và dừng tại thời điểm bắt đầu %TPL_NAME%."
+      "socialLinksDescr": "Điều này cho phép người đọc tham chiếu và thúc đẩy các phần cụ thể của %TPL_NAME%. Ví dụ: nếu bạn sử dụng một biểu tượng trong phần chia sẻ, người đọc sẽ dừng ở phần %TPL_NAME% cụ thể đó chứ không phải là khi bắt đầu câu chuyện của bạn. Người đọc có thể sử dụng liên kết truyền thông xã hội trong phần tiêu đề để thúc đẩy toàn bộ %TPL_NAME% (tab đầu trang) và dừng tại thời điểm bắt đầu %TPL_NAME%.",
+      "socialDisabled": "Tính năng này chỉ khả dụng với bố cục Bảng điều khiển Nổi",
+      "socialWarning": "Câu chuyện của bạn đang sử dụng bố cục Bảng điều khiển Bên, tuy nhiên chúng tôi khuyến nghị chỉ sử dụng tùy chọn này với bố cục Bảng điều khiển Nổi để tránh gặp sự cố về các bảng điều khiển có thể không nằm đúng vị trí mong muốn theo từng phần câu chuyện bằng hình ảnh. Bạn có thể tiếp tục sử dụng tùy chọn này, tuy nhiên nếu bạn vô hiệu hóa nó, tùy chọn này sẽ chỉ khả dụng nếu sử dụng bố cục Bảng điều khiển Nổi."
     },
     "settingsLayoutFonts": {
       "title": "Phông chữ",
       "defaultLbl": "Mặc định",
       "sectionTitleLbl": "Tiêu đề phần",
       "sectionContentLbl": "Nội dung phần"
+    },
+    "settingsThemeOptions": {
+      "lblOrgTheme": "Chủ đề Tổ chức",
+      "lblModTheme": "Chủ đề Hiện tại"
     },
     "initPopup": {
       "title": "Chào mừng đến với"
@@ -50,9 +56,9 @@ define({
     },
     "addEditViewText": {
       "editorPlaceholder": "Thêm văn bản, liên kết và đồ họa nhỏ ở đây.",
-      "editorActionsTitle": "Hành động trong Sân khấu Chính",
-      "editorActionsHelpDescr": "Sử dụng các điều khiển này để tạo ra các liên kết sẽ thay đổi giai đoạn chính. Ví dụ: khi người đọc bấm vào một liên kết, bạn có thể muốn phóng to bản đồ đến một vị trí cụ thể, hiển thị một bản đồ web hay hiển thị một hình ảnh.",
-      "mainStageDisabled": "Các hành động của Sân khấu chính được hiển thị khi trình biên tập được tối đa hóa"
+      "editorActionsTitle": "Các tương tác với Câu chuyện",
+      "editorActionsHelpDescr": "Tạo các liên kết trong câu chuyện sẽ giúp bạn kể lại câu chuyện hay hơn. Một tương tác có thể liên kết với một phần khác hoặc thay đổi giao diện chính. Ví dụ, bạn có thể cấu hình một tương tác để di chuyển bản đồ đến vị trí khác, bật/tắt lớp bản đồ hoặc thay đổi media trên trang chính sang ảnh, video, bản đồ hoặc trang web khác.",
+      "mainStageDisabled": "Các tương tác với Câu chuyện sẽ tắt khi trình biên tập đang được phóng lớn."
     },
     "organizePopup": {
       "title": "Tổ chức",
@@ -66,7 +72,7 @@ define({
       "firstSectionExplain": "(Không thể di chuyển phần trang chủ)",
       "exportMainStage": "Nội dung của Sân khấu chính",
       "exportPanel": "Nội dung của Bảng điều khiển",
-      "exportActions": "Hành động của Sân khấu chính"
+      "exportActions": "Các tương tác với Câu chuyện"
     },
     "exportData": {
       "btn": "Xuất nội dung",

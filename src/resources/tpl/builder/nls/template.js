@@ -21,13 +21,19 @@ define({
 				cfgMedium: "Medium",
 				cfgLarge: "Large",
 				socialLinksLabel: "Display sharing links at the bottom of each section",
-				socialLinksDescr: "This enables readers to reference and promote specific sections of your %TPL_NAME%. For instance, if you use a sections share icon, readers will land at that specific %TPL_NAME% section rather than the beginning of your story. Your readers can use the social media link in the title section to promote your entire %TPL_NAME% (header tab) and have them land at the start of the %TPL_NAME%."
+				socialLinksDescr: "This enables readers to reference and promote specific sections of your %TPL_NAME%. For instance, if you use a sections share icon, readers will land at that specific %TPL_NAME% section rather than the beginning of your story. Your readers can use the social media link in the title section to promote your entire %TPL_NAME% (header tab) and have them land at the start of the %TPL_NAME%.",
+				socialDisabled: "This feature is only available with Floating Panel layout",
+				socialWarning: "Your story is using Side Panel layout, but we now recommend using this option only with Floating Panel layout to avoid an issue where the panel may not position itself to the desired section for narratives with images. You may continue to use this option, but if you disable it, it will then only be available when using Floating Panel layout."
 			},
 			settingsLayoutFonts: {
 				title: "Fonts",
 				defaultLbl: "Default",
 				sectionTitleLbl: "Section title",
 				sectionContentLbl: "Section content"
+			},
+			settingsThemeOptions: {
+				lblOrgTheme: "Organization Theme",
+				lblModTheme: "Current Theme"
 			},
 			initPopup: {
 				title: "Welcome to"
@@ -51,9 +57,9 @@ define({
 			},
 			addEditViewText: {
 				editorPlaceholder: "Add text, links, and small graphics here.",
-				editorActionsTitle: "Main Stage Actions",
-				editorActionsHelpDescr: "Use these controls to create links that will change the main stage. For example, when the reader clicks a link, you may want to zoom the map to a specific location, display another web map or display an image.",
-				mainStageDisabled: "Main Stage Actions are disabled when the editor is maximized"
+				editorActionsTitle: "Story Actions",
+				editorActionsHelpDescr: "Create links in your narrative that help tell your story. A Story Action can link to another section or change the main stage. For example, you can configure an action to move the map to another location, toggle map layers on/off, or change the main stage media to a different image, video, map, or web page.",
+				mainStageDisabled: "Story Actions are disabled when the editor is maximized"
 			},
 			organizePopup: {
 				title: "Organize",
@@ -67,7 +73,7 @@ define({
 				firstSectionExplain: "(The home section cannot be moved)",
 				exportMainStage: "Main Stage content",
 				exportPanel: "Panel content",
-				exportActions: "Main Stage actions"
+				exportActions: "Story actions"
 			},
 			exportData: {
 				btn: "Export content",
@@ -107,6 +113,7 @@ define({
         }
     }),
 	"ar": 1,
+	"bs": 1,
 	"cs": 1,
 	"da": 1,
 	"de": 1,
@@ -116,7 +123,9 @@ define({
 	"fi": 1,
 	"fr": 1,
 	"he": 1,
-	"hr": 1, 
+	"hi": 1,
+	"hr": 1,
+	"id": 1,
 	"it": 1,
 	"ja": 1,
 	"ko": 1,
@@ -135,6 +144,6 @@ define({
 	"tr": 1,
 	"vi": 1,
 	"zh-cn": 1,
-	"zh-hk": 1, 
-	"zh-tw": 1 
+	"zh-hk": 1,
+	"zh-tw": 1
 });

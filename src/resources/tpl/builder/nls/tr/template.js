@@ -20,13 +20,19 @@ define({
       "cfgMedium": "Orta",
       "cfgLarge": "Büyük",
       "socialLinksLabel": "Paylaşma bağlantılarını her bölümün en altında görüntüle",
-      "socialLinksDescr": "Bu, okuyuculara %TPL_NAME% öğenizin belirli bölümlerine başvuru yapma ve bunları tanıtma olanağı sağlar. Örneğin, bölüm paylaşımlı simge kullanıyorsanız, okuyucular hikayenizin başlangıcı yerine o belirli %TPL_NAME% bölümüne gider. okuyucularınız başlık bölümündeki sosyal medya bağlantısını kullanarak %TPL_NAME% (başlık sekmesi) öğenizin tamamını tanıtabilir ve %TPL_NAME% başlangıcına gidilmesini sağlayabilir."
+      "socialLinksDescr": "Bu, okuyuculara %TPL_NAME% öğenizin belirli bölümlerine başvuru yapma ve bunları tanıtma olanağı sağlar. Örneğin, bölüm paylaşımlı simge kullanıyorsanız, okuyucular hikayenizin başlangıcı yerine o belirli %TPL_NAME% bölümüne gider. okuyucularınız başlık bölümündeki sosyal medya bağlantısını kullanarak %TPL_NAME% (başlık sekmesi) öğenizin tamamını tanıtabilir ve %TPL_NAME% başlangıcına gidilmesini sağlayabilir.",
+      "socialDisabled": "Bu detay yalnızca Kayan Panel düzeni için kullanılabilir",
+      "socialWarning": "Hikayeniz Yan Panel düzenini kullanıyor, ancak panelin resimli açıklamalar için kendisini istenen bölüme yerleştirmemesi gibi bir sorun yaşamamak için bu seçeneği şu an yalnızca Kayan Panel düzeni için kullanmanızı öneririz. Bu seçeneği kullanmayı sürdürebilirsiniz, ancak devre dışı bıraktığınızda, yalnızca Kayan Panel düzeni ile kullanılabilecektir."
     },
     "settingsLayoutFonts": {
       "title": "Yazı Tipleri",
       "defaultLbl": "Varsayılan",
       "sectionTitleLbl": "Bölüm başlığı",
       "sectionContentLbl": "Bölüm içeriği"
+    },
+    "settingsThemeOptions": {
+      "lblOrgTheme": "Kuruluş Teması",
+      "lblModTheme": "Geçerli Tema"
     },
     "initPopup": {
       "title": "Hoş geldiniz:"
@@ -50,9 +56,9 @@ define({
     },
     "addEditViewText": {
       "editorPlaceholder": "Buraya metin, bağlantı ve küçük grafikler ekleyin.",
-      "editorActionsTitle": "Ana Aşama Eylemleri",
-      "editorActionsHelpDescr": "Bu denetimleri kullanarak ana aşamayı değiştirecek bağlantıları oluşturun. Örneğin, okuyucu bir bağlantıya tıkladığında haritayı belirli bir konuma yakınlaştırmak, başka bir web haritası görüntülemek veya bir resim göstermek isteyebilirsiniz.",
-      "mainStageDisabled": "Ana Aşama Eylemleri, düzenleyici maksimuma getirildiğinde devre dışı bırakılır"
+      "editorActionsTitle": "Hikaye Eylemleri",
+      "editorActionsHelpDescr": "Açıklamanızda hikayenizi anlatmanıza yardım eden bağlantılar oluşturun. Bir Hikaye Eylemi başka bir bölüme bağlanabilir veya ana sahneyi değiştirebilir. Örneğin, haritayı başka bir konuma taşıyan, harita katmanlarını açıp kapatan veya ana sahne ortamını farklı bir görüntüye, videoya, haritaya veya web sayfasına değiştiren bir eylem yapılandırabilirsiniz.",
+      "mainStageDisabled": "Hikaye Eylemleri düzenleyici ekranı kapladığında devre dışı bırakılır"
     },
     "organizePopup": {
       "title": "Düzenle",
@@ -66,7 +72,7 @@ define({
       "firstSectionExplain": "(Ana sayfa bölümü taşınamaz)",
       "exportMainStage": "Ana Aşama içeriği",
       "exportPanel": "Panel içeriği",
-      "exportActions": "Ana Aşama eylemleri"
+      "exportActions": "Hikaye eylemleri"
     },
     "exportData": {
       "btn": "İçeriği dışa aktar",

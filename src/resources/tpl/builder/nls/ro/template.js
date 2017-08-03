@@ -20,13 +20,19 @@ define({
       "cfgMedium": "Mediu",
       "cfgLarge": "Mare",
       "socialLinksLabel": "Afişare linkuri de partajare în partea de jos a fiecărei secţiuni",
-      "socialLinksDescr": "Acest lucru le permite cititorilor să consulte şi să promoveze anumite secţiuni din %TPL_NAME%. De exemplu, dacă utilizaţi o pictogramă pentru partajare de secţiuni, cititorii vor ajunge în secţiunea %TPL_NAME% respectivă şi nu la începutul informaţiilor. Cititorii pot utiliza linkul pentru servicii de socializare din secţiunea pentru titlu pentru a promova întregul %TPL_NAME% (fila titlului) şi pot ajunge la începutul %TPL_NAME%."
+      "socialLinksDescr": "Acest lucru le permite cititorilor să consulte şi să promoveze anumite secţiuni din %TPL_NAME%. De exemplu, dacă utilizaţi o pictogramă pentru partajare de secţiuni, cititorii vor ajunge în secţiunea %TPL_NAME% respectivă şi nu la începutul informaţiilor. Cititorii pot utiliza linkul pentru servicii de socializare din secţiunea pentru titlu pentru a promova întregul %TPL_NAME% (fila titlului) şi pot ajunge la începutul %TPL_NAME%.",
+      "socialDisabled": "Acest obiect spaţial este disponibil numai în configuraţia Panou mobil",
+      "socialWarning": "Scenariul dvs. utilizează configuraţia Panou lateral, dar utilizarea acestei opţiuni este recomandată acum doar împreună cu configuraţia Panou mobil pentru a evita situaţiile problematice în care panoul nu se poate poziţiona în secţiunea dorită, în cazul naraţiunilor cu imagini. Puteţi folosi în continuare această opţiune, dar dacă o dezactivaţi, va fi apoi disponibilă doar atunci când folosiţi configuraţia Panou mobil."
     },
     "settingsLayoutFonts": {
       "title": "Fonturi",
       "defaultLbl": "Implicit",
       "sectionTitleLbl": "Titlu secţiune",
       "sectionContentLbl": "Conţinut secţiune"
+    },
+    "settingsThemeOptions": {
+      "lblOrgTheme": "Temă organizaţie",
+      "lblModTheme": "Temă actuală"
     },
     "initPopup": {
       "title": "Bine aţi venit la"
@@ -50,9 +56,9 @@ define({
     },
     "addEditViewText": {
       "editorPlaceholder": "Adăugaţi text, linkuri şi mici imagini aici.",
-      "editorActionsTitle": "Acţiuni nivel principal",
-      "editorActionsHelpDescr": "Utilizaţi aceste comenzi pentru a crea linkuri ce vor modifica nivelul principal. De exemplu, când un cititor face clic pe un link, puteţi dori să transfocaţi harta într-o anumită locaţie, să afişaţi altă hartă web sau să afişaţi o imagine.",
-      "mainStageDisabled": "Acţiunile aferente Scenei principale sunt dezactivate când editorul este maximizat"
+      "editorActionsTitle": "Acţiuni relatare",
+      "editorActionsHelpDescr": "Creaţi linkuri în naraţiune, care vă ajută să relataţi. O Acţiune de relatare poate face legătura cu altă secţiune sau poate schimba scena principală. De exemplu, puteţi configura o acţiune pentru a muta harta într-o altă locaţie, pentru a activa/dezactiva straturi tematice sau pentru a schimba fişierul media pentru scena principală cu altă imagine, clip video, hartă sau pagină web.",
+      "mainStageDisabled": "Acţiunile pentru relatare sunt dezactivate când editorul este maximizat"
     },
     "organizePopup": {
       "title": "Organizare",
@@ -66,7 +72,7 @@ define({
       "firstSectionExplain": "(Secţiunea din pagina principală nu poate fi eliminată)",
       "exportMainStage": "Conţinut Scenă principală",
       "exportPanel": "Conţinut panou",
-      "exportActions": "Acţiuni Scenă principală"
+      "exportActions": "Acţiuni relatare"
     },
     "exportData": {
       "btn": "Export conţinut",

@@ -34,16 +34,22 @@ define({
       "notAuthorizedBuilder": "Você não está autorizado para utilizar o construtor %TPL_NAME%.",
       "noBuilderIE": "O construtor não é suportado no Internet Explorer antes da versão %VERSION%. %UPGRADE%",
       "noViewerIE": "Esta história não é suportada no Internet Explorer antes da versão %VERSION%. %UPGRADE%",
+      "noViewerIE2": "Você está tentando visualizar esta história utilizando um navegador antigo e não suportado. Pode haver recursos que não funcionam ou outros problemas inesperados. Sugerimos que você atualize para Internet Explorer 11 ou utilize outro navegador, como Chrome.",
+      "noViewerIE3": "No final de 2017, esta história não será mais carregada neste navegador. Neste momento, você deve utilizar um navegador suportado para visualizar esta história.",
       "upgradeBrowser": "<a href='http://browsehappy.com/' target='_blank'>Atualize seu navegador</a>.",
       "mapLoadingFail": "Algo deu errado, o mapa não carregou corretamente.",
-      "signOut": "Sair"
+      "signOut": "Sair",
+      "print0": "Desculpe, esta história não pode ser impressa.",
+      "print1": "Para imprimir esta história, utilize o botão de impressão localizado no diálogo de compartilhamento.",
+      "print2": "Desculpe, uma versão imprimível da história é normalmente acessível pelo diálogo de compartilhamento, mas este diálogo foi desativado pelo autor.",
+      "attention": "Atenção!"
     },
     "mobileView": {
       "tapForDetails": "Toque poara detalhes",
       "clickForDetails": "Mais informações",
       "swipeToExplore": "Oscile para explorar",
-      "tapForMap": "Toque para voltar ao Mapa",
-      "clickForMap": "VOLTAR AO MAPA"
+      "tapForMap": "Toque para voltar",
+      "clickForMap": "VOLTAR"
     },
     "floatLayout": {
       "scroll": "Rolar"
@@ -52,7 +58,9 @@ define({
       "scroll": "Role para baixo para mais!"
     },
     "mainStage": {
-      "back": "Voltar"
+      "back": "Voltar",
+      "errorDeleted": "Este link não está ativo (a seção foi excluída)",
+      "errorNotPublished": "Este link não está ativo (a seção não foi publicada)"
     },
     "headerFromCommon": {
       "storymapsText": "Um mapa histórico",
@@ -85,7 +93,17 @@ define({
       "autoplayLabel": "Modo de reprodução automática",
       "autoplayExplain1": "O modo de reprodução automática avançará por sua história em um intervalo regular. Isto é ideal em um monitor de visualização pública ou de quiosque, mas esteja ciente que em outras situações ele pode tornar a história mais difícil de ler. Este recurso não é suportado em visualizações pequenas.",
       "autoplayExplain2": "Quando este modo está ativo há controles para reproduzir/pausar a história e ajustar a velocidade de navegação.",
-      "linksupdated": "Links atualizados!"
+      "linksupdated": "Links atualizados!",
+      "print": "Imprimir",
+      "printInstruction1": "Aguarde todo o conteúdo carregar antes de imprimir esta página",
+      "printInstruction1a": "Algum conteúdo pode não imprimir a menos que você ative \"Imprimir Cores do Plano de Fundo e Imagens\" no diálogo de configuração da Página de Impressão",
+      "printInstruction2": "Esta página não pode ser compartilhada com outros, ao contrário, compartilhe o ${link}",
+      "link": "link para a história",
+      "printOptPageBreak": "Comece cada seção em uma nova página",
+      "makeTextBlack": "Tornar todo o texto preto",
+      "printWarning": "Esta é uma versão impressa de um mapa histórico. O conteúdo dinâmico como vídeos e mapas interativos está disponível somente na versão online em ${link}",
+      "printMSWarning": "link disponível somente na história online",
+      "printVideoWarning": "Este vídeo pode ser visualizado na versão online deste mapa histórico"
     }
   }
 });

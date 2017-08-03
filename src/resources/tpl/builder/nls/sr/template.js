@@ -20,13 +20,19 @@ define({
       "cfgMedium": "Srednje",
       "cfgLarge": "Veliko",
       "socialLinksLabel": "Prikažite veze za deljenje na dnu svakog odeljka",
-      "socialLinksDescr": "Ovo omogućava čitaocima da povežu i promovišu određene odeljke %TPL_NAME%. Na primer, ako koristite ikonicu deljenja odeljaka, čitaoci će se naći na tom posebnom %TPL_NAME% odeljku umesto na početku priče. Čitaoci mogu da koriste vezu društvenih medija u odeljku naslova da promovišu celu %TPL_NAME% (karticu zaglavlja) i da se nađu na početku %TPL_NAME%."
+      "socialLinksDescr": "Ovo omogućava čitaocima da povežu i promovišu određene odeljke %TPL_NAME%. Na primer, ako koristite ikonicu deljenja odeljaka, čitaoci će se naći na tom posebnom %TPL_NAME% odeljku umesto na početku priče. Čitaoci mogu da koriste vezu društvenih medija u odeljku naslova da promovišu celu %TPL_NAME% (karticu zaglavlja) i da se nađu na početku %TPL_NAME%.",
+      "socialDisabled": "Ova funkcionalnost je dostupna samo uz raspored plutajućeg panela",
+      "socialWarning": "Vaša priča koristi raspored bočnog panela, ali mi sada preporučujemo korišćenje ove opcije samo sa rasporedom plutajućeg panela, kako bi se izbegao problem gde panel ne može da se postavi na željeni odeljak kod narativa sa slikama. Možete da nastavite sa korišćenjem ove opcije, ali ako je onemogućite, tada će biti dostupna samo pri korišćenju rasporeda plutajućeg panela."
     },
     "settingsLayoutFonts": {
       "title": "Fontovi",
       "defaultLbl": "Podrazumevano",
       "sectionTitleLbl": "Naslov odeljka",
       "sectionContentLbl": "Sadržaj odeljka"
+    },
+    "settingsThemeOptions": {
+      "lblOrgTheme": "Tema organizacije",
+      "lblModTheme": "Trenutna tema"
     },
     "initPopup": {
       "title": "Dobrodošli na"
@@ -50,9 +56,9 @@ define({
     },
     "addEditViewText": {
       "editorPlaceholder": "Dodajte tekst, linkove i male grafičke prikaze ovde.",
-      "editorActionsTitle": "Radnje na centralnom delu",
-      "editorActionsHelpDescr": "Koristite ove kontrole da biste kreiralie linkove koji će promeniti centralni deo. Na primer, kada čitalac klikne na link, možda ćete hteti da uveliča određenu lokaciju na mapi, da prikaže drugu veb mapu ili da prikaže snimak.",
-      "mainStageDisabled": "Radnje centralnog dela su onemogućene kada je uređivač maksimalno uveličan"
+      "editorActionsTitle": "Radnje priče",
+      "editorActionsHelpDescr": "Kreirajte linkove u narativu koji vam pomažu da ispričate priču. Radnja priče može da upućuje na drugi odeljak ili da promeni centralni deo. Na primer, možete da konfigurišete radnju za premeštanje mape na drugu lokaciju, uključivanje/isključivanje slojeva mape ili promenu medija za centralni deo na drugu sliku, video, mapu ili veb stranicu.",
+      "mainStageDisabled": "Radnje priče su onemogućene kada je uređivač maksimalno uveličan"
     },
     "organizePopup": {
       "title": "Organizujte",
@@ -66,7 +72,7 @@ define({
       "firstSectionExplain": "(matični odeljak ne može da bude pomeren)",
       "exportMainStage": "Sadržaj centralnog dela",
       "exportPanel": "Sadržaj panela",
-      "exportActions": "Radnje na centralnom delu"
+      "exportActions": "Radnje priče"
     },
     "exportData": {
       "btn": "Izvezi sadržaj",

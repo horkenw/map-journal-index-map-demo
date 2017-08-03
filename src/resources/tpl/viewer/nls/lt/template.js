@@ -34,16 +34,22 @@ define({
       "notAuthorizedBuilder": "Nesate autorizuoti naudoti %TPL_NAME% kūrimo priemonę.",
       "noBuilderIE": "Kūrimo priemonė neveikia „Internet Explorer“ versijose ankstesnėse nei %VERSION%. %UPGRADE%",
       "noViewerIE": "Pasakojimas neveikia Internet Explorer, jei jo versija senesnė nei %VERSION%. %UPGRADE%",
+      "noViewerIE2": "Jūs bandote peržiūrėti šį pasakojimą naudodami senesnę, nepalaikomą naršyklę. Kai kurie elementai gali neveikti ar įvykti kitokių nenumatytų problemų. Siūlome atnaujinti naršyklės versiją į Internet Explorer 11 arba naudoti kitą naršyklę, pavyzdžiui, Chrome.",
+      "noViewerIE3": "2017 m. pabaigoje šio pasakojimo nebebus galima įkelti naudojant šią naršyklę. Tuo metu, norėdami peržiūrėti šį pasakojimą, turėsite naudoti palaikomą naršyklę.",
       "upgradeBrowser": "<a href='http://browsehappy.com/' target='_blank'>Atnaujinkite naršyklę</a>.",
       "mapLoadingFail": "Įvyko klaida ir žemėlapio nepavyko tinkamai įkelti.",
-      "signOut": "Atsijungti"
+      "signOut": "Atsijungti",
+      "print0": "Deja, šio pasakojimo išspausdinti nepavyko.",
+      "print1": "Norėdami išspausdinti šį pasakojimą, naudokite spausdinimo mygtuką, esantį bendrinimo dialogo lange.",
+      "print2": "Šio pasakojimo spaudos versija paprastai pasiekiama bendrinimo dialogo lange. Deja, autorius šį dialogo langą yra išjungęs.",
+      "attention": "Dėmesio!"
     },
     "mobileView": {
       "tapForDetails": "Išsamiai informacijai bakstelėkite",
       "clickForDetails": "Sužinokite daugiau",
       "swipeToExplore": "Perbraukite norėdami naršyti",
-      "tapForMap": "Bakstelėkite norėdami grįžti į žemėlapį",
-      "clickForMap": "GRĮŽTI Į ŽEMĖLAPĮ"
+      "tapForMap": "Bakstelėkite, kad grįžtumėte",
+      "clickForMap": "ATGAL"
     },
     "floatLayout": {
       "scroll": "Slinkti"
@@ -52,7 +58,9 @@ define({
       "scroll": "Slinkite žemyn ir peržiūrėkite daugiau!"
     },
     "mainStage": {
-      "back": "Atgal"
+      "back": "Atgal",
+      "errorDeleted": "Ši nuoroda neaktyvi (skiltis ištrinta)",
+      "errorNotPublished": "Ši nuoroda neaktyvi (skiltis nepublikuota)"
     },
     "headerFromCommon": {
       "storymapsText": "Pristatomasis žemėlapis",
@@ -85,7 +93,17 @@ define({
       "autoplayLabel": "Automatinio paleidimo režimas",
       "autoplayExplain1": "Veikiant automatinio paleidimo režimu, jūsų pasakojimas bus pateikiamas reguliariais intervalais. Tai puikiai tinkama parinktis informaciniuose terminaluose arba viešuosiuose ekranuose, tačiau nepamirškite, kad kitais atvejais pasakojimą gali būti sudėtinga perskaityti. Ši funkcija nepalaikoma mažuose ekranuose.",
       "autoplayExplain2": "Kai šis režimas aktyvus, yra valdikliai, kuriais galima leisti / pristabdyti pasakojimą ir reguliuoti naršymo greitį.",
-      "linksupdated": "Nuorodos atnaujintos!"
+      "linksupdated": "Nuorodos atnaujintos!",
+      "print": "Spausdinti",
+      "printInstruction1": "Prieš spausdindami šį puslapį, palaukite, kol bus įkeltas visas turinys",
+      "printInstruction1a": "Dalies turinio gali nepavykti išspausdinti, jei nuostatų dialogo lange Spausdinti puslapį neįjungsite „Spausdinti fono spalvas ir atvaizdus“",
+      "printInstruction2": "Šio puslapio negalima bendrinti su kitais. Užuot bendrinę puslapį, bendrinkite šią nuorodą ${link}",
+      "link": "nuoroda į pasakojimą",
+      "printOptPageBreak": "Kiekvieną skyrių pradėkite naujame puslapyje",
+      "makeTextBlack": "Spalvinti visą tekstą juodai",
+      "printWarning": "Tai yra žemėlapių pasakojimų spausdinta versija. Dinaminis turinys, pvz., vaizdo įrašai ir interaktyvūs žemėlapiai, prieinami tik internetinėje versijoje ${link}",
+      "printMSWarning": "Nuoroda prieinama tik pasakojime internete",
+      "printVideoWarning": "Šį vaizdo įrašą galima peržiūrėti internetinėje žemėlapio pasakojimo versijoje"
     }
   }
 });

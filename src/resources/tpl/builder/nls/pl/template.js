@@ -20,13 +20,19 @@ define({
       "cfgMedium": "Średni",
       "cfgLarge": "Duży",
       "socialLinksLabel": "Wyświetlaj łącza do udostępniania u dołu każdej sekcji",
-      "socialLinksDescr": "Umożliwia to użytkownikom tworzenie odnośników do określonych sekcji aplikacji %TPL_NAME% i ich promowanie. Na przykład, jeżeli użyjesz ikony udostępniania sekcji, użytkownicy zostaną przekierowani do określonej sekcji aplikacji %TPL_NAME%, zamiast do początku opowiadania. Użytkownicy mogą skorzystać z łącza mediów społecznościowych w sekcji tytułu, aby promować całą aplikację %TPL_NAME% (karta nagłówka) — w tym przypadku użytkownicy są przekierowywani do początku aplikacji %TPL_NAME%."
+      "socialLinksDescr": "Umożliwia to użytkownikom tworzenie odnośników do określonych sekcji aplikacji %TPL_NAME% i ich promowanie. Na przykład, jeżeli użyjesz ikony udostępniania sekcji, użytkownicy zostaną przekierowani do określonej sekcji aplikacji %TPL_NAME%, zamiast do początku opowiadania. Użytkownicy mogą skorzystać z łącza mediów społecznościowych w sekcji tytułu, aby promować całą aplikację %TPL_NAME% (karta nagłówka) — w tym przypadku użytkownicy są przekierowywani do początku aplikacji %TPL_NAME%.",
+      "socialDisabled": "Ta funkcja jest dostępna tylko w kompozycji Panel przestawny",
+      "socialWarning": "Twoja narracja używa kompozycji Panel boczny, ale obecnie zalecamy korzystanie z tej opcji tylko z kompozycją Panel przestawny, aby uniknąć problemu w sytuacji, gdy panel nie ustawi się w odpowiedniej sekcji narracji ze zdjęciami. Możesz w dalszym ciągu korzystać z tej opcji, ale jeśli ją wyłączysz, będzie ona ponownie dostępna tylko z kompozycją Panel przestawny."
     },
     "settingsLayoutFonts": {
       "title": "Czcionki",
       "defaultLbl": "Domyślnie",
       "sectionTitleLbl": "Tytuł sekcji",
       "sectionContentLbl": "Treść sekcji"
+    },
+    "settingsThemeOptions": {
+      "lblOrgTheme": "Motyw instytucji",
+      "lblModTheme": "Bieżący motyw"
     },
     "initPopup": {
       "title": "Witamy w"
@@ -50,9 +56,9 @@ define({
     },
     "addEditViewText": {
       "editorPlaceholder": "Tutaj możesz dodać tekst, łącza oraz niewielkie elementy graficzne.",
-      "editorActionsTitle": "Działania w obszarze głównym",
-      "editorActionsHelpDescr": "Użyj tych kontrolek do utworzenia łączy, które zmienią obszar główny. Na przykład, gdy użytkownik kliknie łącze, może nastąpić powiększenie mapy do określonej lokalizacji, wyświetlenie innej mapy internetowej lub wyświetlenie obrazu.",
-      "mainStageDisabled": "Działania w obszarze głównym są wyłączone, gdy okno edytora jest zmaksymalizowane."
+      "editorActionsTitle": "Działania narracji",
+      "editorActionsHelpDescr": "W narracji twórz łącza, które pomogą przedstawić Twoją opowieść. Działanie narracji może odsyłać do innej sekcji lub zmieniać obszar główny. Możesz na przykład skonfigurować działanie, aby przenieść mapę do innej lokalizacji, włączać/wyłączać warstwy mapy lub zmieniać multimedia obszaru głównego na inny obraz, wideo, mapę lub stronę internetową.",
+      "mainStageDisabled": "Działania narracji są wyłączone, gdy okno edytora jest zmaksymalizowane."
     },
     "organizePopup": {
       "title": "Organizuj",
@@ -66,7 +72,7 @@ define({
       "firstSectionExplain": "(Sekcji Start nie można przenieść).",
       "exportMainStage": "Zawartość obszaru głównego",
       "exportPanel": "Zawartość panelu",
-      "exportActions": "Działania w obszarze głównym"
+      "exportActions": "Działania narracji"
     },
     "exportData": {
       "btn": "Eksportuj zasoby",

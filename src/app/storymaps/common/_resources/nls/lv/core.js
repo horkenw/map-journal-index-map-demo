@@ -77,7 +77,7 @@ define({
       "loadingMessage": "Pārbaude, vai stāstā nav problēmu",
       "viewToggle1": "Rādīt stāsta saturu",
       "viewToggle2": "Aizvērt stāsta saturu",
-      "socialize": "Socializācija",
+      "socialize": "Socializējies",
       "statusPrivate": "Jūsu stāsts ir privāts. To varat skatīt tikai jūs.",
       "statusError": "Jūsu stāsta saturā ir problēmas, ko lasītāji pamanīs. Varat noteikt un salabot šīs problēmas tālāk.",
       "statusNoErrPrivate": "Koplietojiet savu stāstu, kad būsiet gatavs!",
@@ -107,19 +107,33 @@ define({
     },
     "settingsHeader": {
       "title": "Galvene",
-      "logoEsri": "Esri logotips",
-      "logoNone": "Nav logotipa",
-      "logoCustom": "Pielāgots logotips",
-      "logoCustomPlaceholder": "URL (maks. 250x50 pikseļi)",
-      "logoCustomTargetPlaceholder": "Klikšķis caur saiti",
-      "logoSocialExplain": "Pielāgojiet galvenes saiti.",
-      "logoSocialText": "Teksts",
-      "logoSocialLink": "Saite",
+      "logoEsriRadio": "Esri logotips",
+      "logoNoneRadio": "Nav logotipa",
+      "logoOrgRadio": "Organizācijas logotips",
+      "logoCustomRadio": "Mans logotips",
+      "logoCustomLabel": "Attēls:",
+      "logoCustomUploadHelp": "Logotipi vislabāk izskatās ar platuma:augstuma attiecību no 1:1 līdz 5:1. Ja saistītais logotips tiek zīmēts lēni, saglabājiet kopiju un augšupielādējiet to šeit.",
+      "logoCustomUploadTooltip": "Izmantot augšupielādētu logotipu",
+      "logoCustomUploadButton": "Augšupielādēt logotipu",
+      "logoUploadSizeError": "GIF izmēri ir pārāk lieli. Mainiet platuma izmērus uz ${PIXEL-WIDTH} pikseļiem.",
+      "logoCustomLinkTooltip": "Saite uz logotipu",
+      "logoCustomLinkPlaceholder": "Attēla URL",
+      "logoUploadGenericError": "Logotips var būt .bmp, .gif, .jpg, .jpeg vai .png fails. Gif nedrīkst būt platāks par 250px un lielāks par 10Mb.",
+      "logoCustomTargetPlaceholder": "Tīmekļa lapa, ko atvērt, ja tiek noklikšķināts uz logotipa",
+      "logoSocialText": "Devīze:",
+      "logoLink": "Saite",
       "lblSmallHeader": "Lietot kompaktu galveni (bez apakšvirsraksta)"
     },
     "header": {
       "title": "Rediģējiet sava %TPL_NAME% nosaukumu",
       "subtitle": "Rediģējiet sava %TPL_NAME% apakšnosaukumu"
+    },
+    "sectionNavigation": {
+      "select": "Atlasiet sadaļu...",
+      "section": "Sadaļa",
+      "thisSection": "Šī sadaļa",
+      "homeSection": "Sākuma sadaļa",
+      "hiddenSection": "Slēptā sadaļa"
     }
   }
 });

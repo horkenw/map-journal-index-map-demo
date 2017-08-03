@@ -20,13 +20,19 @@ define({
       "cfgMedium": "Medium",
       "cfgLarge": "Stor",
       "socialLinksLabel": "Visa delningslänkar längst ned i varje avsnitt",
-      "socialLinksDescr": "Detta gör att användaren kan referera till och framhålla specifika avsnitt av din %TPL_NAME%. Om du till exempel använder en ikon för avsnittsdelning kommer användaren till det specifika %TPL_NAME%-avsnittet i stället för till början av berättelsen. Användarna kan använda länken till sociala media i rubrikavsnittet för att framhålla hela din %TPL_NAME% (rubrikfliken) och komma till början av %TPL_NAME%."
+      "socialLinksDescr": "Detta gör att användaren kan referera till och framhålla specifika avsnitt av din %TPL_NAME%. Om du till exempel använder en ikon för avsnittsdelning kommer användaren till det specifika %TPL_NAME%-avsnittet i stället för till början av berättelsen. Användarna kan använda länken till sociala media i rubrikavsnittet för att framhålla hela din %TPL_NAME% (rubrikfliken) och komma till början av %TPL_NAME%.",
+      "socialDisabled": "Funktionen är endast tillgänglig med layouten Flytande panel",
+      "socialWarning": "Din berättelse använder layouten Sidopanel, men vi rekommenderar nu att du bara använder det här alternativet med layouten Flytande panel för att undvika ett problem där panelen kanske inte placeras vid den önskade avdelningen för berättelser med bilder. Du kan fortsätta använda alternativet, men om du inaktiverar det är det sedan bara tillgängligt när du använder layouten Flytande panel."
     },
     "settingsLayoutFonts": {
       "title": "Teckensnitt",
       "defaultLbl": "Standard",
       "sectionTitleLbl": "Avsnittets rubrik",
       "sectionContentLbl": "Avsnittets innehåll"
+    },
+    "settingsThemeOptions": {
+      "lblOrgTheme": "Organisationstema",
+      "lblModTheme": "Aktuellt tema"
     },
     "initPopup": {
       "title": "Välkommen till"
@@ -50,9 +56,9 @@ define({
     },
     "addEditViewText": {
       "editorPlaceholder": "Lägg till texter, länkar och små bilder här.",
-      "editorActionsTitle": "Åtgärder på huvudscenen",
-      "editorActionsHelpDescr": "Använd dessa kontroller för att skapa länkar som förändrar huvudscenen. Om användaren till exempel klickar på en länk kan du låta kartan zoomas in till en viss plats, visa en annan webbkarta eller visa en bild.",
-      "mainStageDisabled": "Åtgärder på huvudscenen är inaktiverade när redigeraren är maximerad"
+      "editorActionsTitle": "Berättelseåtgärder",
+      "editorActionsHelpDescr": "Skapa länkar i berättelsen som hjälper dig framföra din historia. En berättelseåtgärd kan länka till en annan sektion eller ändra huvudscenen. Du kan till exempel konfigurera en åtgärd för att flytta kartan till en annan plats, växla kartlager av/på eller ändra media för huvudscenen till en annan bild, video, karta eller webbsida.",
+      "mainStageDisabled": "Berättelseåtgärder är inaktiverade när redigeraren är maximerad"
     },
     "organizePopup": {
       "title": "Organisera",
@@ -66,7 +72,7 @@ define({
       "firstSectionExplain": "(Startasvsnittet går inte att flytta)",
       "exportMainStage": "Innehåll på huvudscenen",
       "exportPanel": "Panelinnehåll",
-      "exportActions": "Åtgärder på huvudscenen"
+      "exportActions": "Berättelseåtgärder"
     },
     "exportData": {
       "btn": "Exportera innehåll",

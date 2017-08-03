@@ -20,13 +20,19 @@ define({
       "cfgMedium": "中",
       "cfgLarge": "大",
       "socialLinksLabel": "在每節底部顯示分享連結",
-      "socialLinksDescr": "這使讀者可以引用並提升 %TPL_NAME% 的特定章節。例如，如果使用章節分享圖示，讀者將會定位到該特定 %TPL_NAME% 章節，而並非定位到故事的開頭。讀者可使用標題章節中的社交媒體連結來提升整個 %TPL_NAME%（標題索引標籤）並定位到 %TPL_NAME% 的開頭。"
+      "socialLinksDescr": "這使讀者可以引用並提升 %TPL_NAME% 的特定章節。例如，如果使用章節分享圖示，讀者將會定位到該特定 %TPL_NAME% 章節，而並非定位到故事的開頭。讀者可使用標題章節中的社交媒體連結來提升整個 %TPL_NAME%（標題索引標籤）並定位到 %TPL_NAME% 的開頭。",
+      "socialDisabled": "此圖徵只能與「浮動面板」版面配置搭配使用",
+      "socialWarning": "您的故事正在使用「側面板」版面配置，但我們目前建議您僅搭配使用此選項與「浮動面板」版面配置以避免發生問題，發生此問題時，面板不會針對內含圖片的敘述，將其本身置於所要的部分。您可以繼續使用此選項，但如果停用，則只有在使用「浮動面板」版面配置時才能使用它。"
     },
     "settingsLayoutFonts": {
       "title": "字體",
       "defaultLbl": "預設",
       "sectionTitleLbl": "章節標題",
       "sectionContentLbl": "章節內容"
+    },
+    "settingsThemeOptions": {
+      "lblOrgTheme": "組織主題",
+      "lblModTheme": "目前主題"
     },
     "initPopup": {
       "title": "歡迎使用"
@@ -50,9 +56,9 @@ define({
     },
     "addEditViewText": {
       "editorPlaceholder": "在此新增文字、連結和小圖形。",
-      "editorActionsTitle": "主舞台操作",
-      "editorActionsHelpDescr": "使用這些控制項來建立將變更主舞台的連結。例如，當讀者按一下某連結時，您會希望地圖縮放至特定位置，顯示其他 Web 地圖或顯示圖像。",
-      "mainStageDisabled": "編輯器最大化時將停用主舞台操作"
+      "editorActionsTitle": "故事動作",
+      "editorActionsHelpDescr": "在敘述中建立連結來協助您述說故事。故事動作可連結至其他部分或變更主舞台。例如，您可以配置動作將地圖移至其他位置、開啟/關閉地圖圖層，或將主舞台媒體變更為不同的圖片、影片、地圖或網頁。",
+      "mainStageDisabled": "編輯器最大化時將停用故事動作"
     },
     "organizePopup": {
       "title": "組織",
@@ -66,7 +72,7 @@ define({
       "firstSectionExplain": "(無法移動首頁章節)",
       "exportMainStage": "主舞台內容",
       "exportPanel": "面板內容",
-      "exportActions": "主舞台操作"
+      "exportActions": "故事動作"
     },
     "exportData": {
       "btn": "匯出內容",

@@ -1,9 +1,9 @@
 /*
  * Application unique help container
  */
- 
+
 #builderHelp {
-	display: none; 
+	display: none;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -45,7 +45,7 @@
 /*
  * Common
  */
- 
+
 .builderHelp .help-header,
 .builderHelp .helpNav,
 .builderHelp .helpFooter {
@@ -65,7 +65,7 @@
 	text-align: left;
 	line-height: 1.1;
 	font-size: 1.4em;
-	font-family: 'open_sanssemibold', sans-serif;	
+	font-family: 'open_sanssemibold', sans-serif;
 	margin: -2px 14px 15px 14px;
 }
 
@@ -198,7 +198,7 @@
 /*
  * Content
  */
- 
+
 .builderHelp .helpText {
 	font-size: 1em;
 	margin: 0.5em;
@@ -218,31 +218,31 @@
 	margin-left: 20px;
 }
 
-.builderHelp .layout-thumbnail span.rotate {
+.builderHelp .layout-thumbnail .rotate {
 	margin-top: -3px;
 }
 
-.builderHelp .layout-thumbnail.layout-float.size-medium span.rotate {
+.builderHelp .layout-thumbnail.layout-float.size-medium .rotate {
 	margin-left: 2px;
 }
 
-.builderHelp .layout-thumbnail.layout-float.size-small span.rotate {
+.builderHelp .layout-thumbnail.layout-float.size-small .rotate {
 	margin-left: -4px;
 }
 
-.builderHelp .layout-thumbnail.layout-float.size-large span.rotate {
+.builderHelp .layout-thumbnail.layout-float.size-large .rotate {
 	margin-left: 10px;
 }
 
-.builderHelp .layout-thumbnail.layout-side.size-medium span.rotate {
+.builderHelp .layout-thumbnail.layout-side.size-medium .rotate {
 	margin-left: 3px;
 }
 
-.builderHelp .layout-thumbnail.layout-side.size-small span.rotate {
+.builderHelp .layout-thumbnail.layout-side.size-small .rotate {
 	margin-left: -2px;
 }
 
-.builderHelp .layout-thumbnail.layout-side.size-large span.rotate {
+.builderHelp .layout-thumbnail.layout-side.size-large .rotate {
 	margin-left: 14px;
 }
 

@@ -20,13 +20,19 @@ define({
       "cfgMedium": "Médio",
       "cfgLarge": "Grande",
       "socialLinksLabel": "Exibir ligações para partilha no fundo de cada secção.",
-      "socialLinksDescr": "Isto permite aos leitores referenciar e promover secções específicas do seu %TPL_NAME%. Por exemplo, se utilizar o ícone de partilha de uma secção, os leitores irão ser dirigidos para essa secção %TPL_NAME% específica, e não para o início da sua história. Os seus leitores podem utilizar a ligação para redes sociais na secção do título para promover o seu %TPL_NAME% (separador do cabeçalho) completo e dirigi-los para o início do %TPL_NAME%."
+      "socialLinksDescr": "Isto permite aos leitores referenciar e promover secções específicas do seu %TPL_NAME%. Por exemplo, se utilizar o ícone de partilha de uma secção, os leitores irão ser dirigidos para essa secção %TPL_NAME% específica, e não para o início da sua história. Os seus leitores podem utilizar a ligação para redes sociais na secção do título para promover o seu %TPL_NAME% (separador do cabeçalho) completo e dirigi-los para o início do %TPL_NAME%.",
+      "socialDisabled": "Este elemento apenas se encontra disponível com o layout Painel Flutuante.",
+      "socialWarning": "A sua história está a utilizar o layout Painel Lateral, no entanto, agora recomendamos a utilização desta opção apenas com o layout Painel Flutuante, para evitar um problema que resulta na possibilidade de o posicionamento do painel não ser o pretendido em narrativas com imagens. Pode continuar a utilizar esta opção, mas, caso a desative, ficará então apenas disponível ao utilizar o layout Painel Flutuante."
     },
     "settingsLayoutFonts": {
       "title": "Fontes",
       "defaultLbl": "Padrão",
       "sectionTitleLbl": "Título da secção",
       "sectionContentLbl": "Conteúdo da secção"
+    },
+    "settingsThemeOptions": {
+      "lblOrgTheme": "Tema da Organização",
+      "lblModTheme": "Tema Atual"
     },
     "initPopup": {
       "title": "Bem-vindo a"
@@ -50,9 +56,9 @@ define({
     },
     "addEditViewText": {
       "editorPlaceholder": "Adicione texto, ligações epequenos gráficos aqui.",
-      "editorActionsTitle": "Ações do Ecrã Principal",
-      "editorActionsHelpDescr": "Utilize estes controlos para criar ligações que irão alterar o ecrã principal. Por exemplo, quando o leitor clica numa ligação, poderá querer ampliar o mapa para uma localização específica, exibir outro mapa web ou exibir uma Imagem.",
-      "mainStageDisabled": "As ações da Seção Principal estão desativadas quando o editor está maximizado."
+      "editorActionsTitle": "Story Actions",
+      "editorActionsHelpDescr": "Crie ligações na sua narrativa que ajudam a contar a sua história. Uma Story Action pode ligar a outra secção ou alterar o ecrã principal. Por exemplo, pode configurar uma ação para mover o mapa para outra localização, alternar camadas entre ligado/desligado, ou alterar o recurso de media do ecrã principal para uma imagem, vídeo ou página web diferente.",
+      "mainStageDisabled": "As Story Actions ficam desativadas quando o editor se encontra maximizado"
     },
     "organizePopup": {
       "title": "Organizar",
@@ -66,7 +72,7 @@ define({
       "firstSectionExplain": "(A secção inicial não pode ser movida)",
       "exportMainStage": "Conteúdo da Seção Principal",
       "exportPanel": "Conteúdo do Painel",
-      "exportActions": "Ações da Seção Principal"
+      "exportActions": "Story actions"
     },
     "exportData": {
       "btn": "Exportar Conteúdo",

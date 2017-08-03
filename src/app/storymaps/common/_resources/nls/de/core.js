@@ -18,7 +18,7 @@ define({
       "create": "Erstellen",
       "yes": "Ja",
       "no": "Nein",
-      "mystories": "My Stories"
+      "mystories": "Eigene Storys"
     },
     "inlineFieldEdit": {
       "editMe": "Bearbeiten!"
@@ -85,7 +85,7 @@ define({
       "notavailable1": "Das Freigeben Ihrer Story im Manager wird nicht unterstützt, da diese Anwendung nicht in %PRODUCT% gehostet wird.",
       "notavailable2": "Das Freigeben Ihrer Story im Manager wird in dieser Version von Portal for ArcGIS nicht unterstützt (Version 10.4 oder höher erforderlich).",
       "notavailable3": "Sie können diese Story über %LINK% freigeben.",
-      "notavailable4": "My Stories",
+      "notavailable4": "Eigene Storys",
       "notavailable5": "die Elementseite",
       "notavailable6": "Dieses Feature wird im Entwicklungsmodus leider nicht vollständig unterstützt. Je nach Entwicklungsszenario wird es möglicherweise nach der Bereitstellung unterstützt.",
       "notavailable7": "Besuchen Sie %MYCONTENT%, um sicherzustellen, dass die Karten und Layer, die Sie in Ihrer Story verwenden, ebenfalls freigegeben sind.",
@@ -107,19 +107,33 @@ define({
     },
     "settingsHeader": {
       "title": "Kopfzeile",
-      "logoEsri": "Esri Logo",
-      "logoNone": "Kein Logo",
-      "logoCustom": "Benutzerdefiniertes Logo",
-      "logoCustomPlaceholder": "URL (max. 250 x 50 Pixel)",
-      "logoCustomTargetPlaceholder": "Ziel-URL",
-      "logoSocialExplain": "Passen Sie den Kopfzeilen-Link an.",
-      "logoSocialText": "Text",
-      "logoSocialLink": "Link",
+      "logoEsriRadio": "Esri Logo",
+      "logoNoneRadio": "Kein Logo",
+      "logoOrgRadio": "Logo der Organisation",
+      "logoCustomRadio": "Eigenes Logo",
+      "logoCustomLabel": "Bild:",
+      "logoCustomUploadHelp": "Logos wirken am besten, wenn das Verhältnis von Breite zu Höhe zwischen 1:1 und 5:1 liegt. Wenn ein verknüpftes Logo langsam aufgebaut wird, speichern Sie eine Kopie, und laden Sie es hier hoch.",
+      "logoCustomUploadTooltip": "Ein hochgeladenes Logo verwenden",
+      "logoCustomUploadButton": "Ein Logo hochladen",
+      "logoUploadSizeError": "Die GIF-Datei ist zu groß. Ändern Sie die Größe zu einer Breite von ${PIXEL-WIDTH} Pixeln.",
+      "logoCustomLinkTooltip": "Link zu einem Logo",
+      "logoCustomLinkPlaceholder": "Bild-URL",
+      "logoUploadGenericError": "Das Logo kann eine BMP-, GIF-, JPG-, JPEG- oder PNG-Datei sein. GIF-Dateien müssen schmaler als 250 Pixel und kleiner als 10 MB sein.",
+      "logoCustomTargetPlaceholder": "Website, die beim Klicken auf das Logo geöffnet wird",
+      "logoSocialText": "Tag-Zeile:",
+      "logoLink": "Link:",
       "lblSmallHeader": "Kompakte Überschrift verwenden (keinen Untertitel)"
     },
     "header": {
       "title": "Bearbeiten Sie den Titel von %TPL_NAME%",
       "subtitle": "Den Untertitel für %TPL_NAME% bearbeiten"
+    },
+    "sectionNavigation": {
+      "select": "Abschnitt auswählen...",
+      "section": "Abschnitt",
+      "thisSection": "Dieser Abschnitt",
+      "homeSection": "Startabschnitt",
+      "hiddenSection": "Ausgeblendeter Abschnitt"
     }
   }
 });

@@ -34,16 +34,22 @@ define({
       "notAuthorizedBuilder": "Bạn không có quyền sử dụng bộ thiết lập %TPL_NAME%.",
       "noBuilderIE": "Bộ thiết lập không được hỗ trợ trên Internet Explorer trước phiên bản %VERSION%. %UPGRADE%",
       "noViewerIE": "Câu chuyện này không được hỗ trợ trong Internet Explorer trước phiên bản %VERSION%. %UPGRADE%",
+      "noViewerIE2": "Bạn đang cố gắng xem câu chuyện này bằng một trình duyệt cũ, không được hỗ trợ. Có thể có các tính năng không hoạt động hoặc các vấn đề không mong đợi khác. Chúng tôi đề nghị bạn nâng cấp lên Internet Explorer 11 hoặc sử dụng một trình duyệt khác, chẳng hạn như Chrome.",
+      "noViewerIE3": "Vào cuối năm 2017, câu chuyện này sẽ không còn được tải trên trình duyệt này. Lúc đó, bạn phải sử dụng một trình duyệt được hỗ trợ để xem câu chuyện này.",
       "upgradeBrowser": "<a href='http://browsehappy.com/' target='_blank'>Vui lòng cập nhật trình duyệt của bạn</a>.",
       "mapLoadingFail": "Đã xảy ra lỗi, bản đồ không tải đúng.",
-      "signOut": "Đăng xuất"
+      "signOut": "Đăng xuất",
+      "print0": "Rất tiếc, không thể in câu chuyện này.",
+      "print1": "Để in câu chuyện này, vui lòng sử dụng nút in nằm trong hộp thoại chia sẻ.",
+      "print2": "Rất tiếc, thông thường phiên bản có chức năng in của câu chuyện sẽ được truy cập thông qua hộp thoại chia sẻ. Tuy nhiên, hộp thoại này đã bị tác giả vô hiệu hóa.",
+      "attention": "Chú ý!"
     },
     "mobileView": {
       "tapForDetails": "Chạm nhẹ vào để biết chi tiết",
       "clickForDetails": "Tìm hiểu thêm",
       "swipeToExplore": "Vuốt để khám phá",
-      "tapForMap": "Chạm nhẹ để quay lại Bản đồ",
-      "clickForMap": "QUAY LẠI BẢN ĐỒ"
+      "tapForMap": "Chạm để quay lại",
+      "clickForMap": "QUAY LẠI"
     },
     "floatLayout": {
       "scroll": "Cuộn"
@@ -52,7 +58,9 @@ define({
       "scroll": "Cuộn xuống để xem thêm!"
     },
     "mainStage": {
-      "back": "Quay lại"
+      "back": "Quay lại",
+      "errorDeleted": "Liên kết này không hoạt động (phần đã bị xóa)",
+      "errorNotPublished": "Liên kết này không hoạt động (phần chưa được phát hành)"
     },
     "headerFromCommon": {
       "storymapsText": "Story map",
@@ -85,7 +93,17 @@ define({
       "autoplayLabel": "Chế độ phát tự động",
       "autoplayExplain1": "Chế độ phát tự động sẽ chuyển qua câu chuyện của bạn theo khoảng thời gian định kỳ. Đây là tính năng lý tưởng đối với màn hình hiển thị nơi công cộng hoặc của ki-ốt, tuy nhiên, hãy lưu ý rằng trong các trường hợp khác, câu chuyện có thể trở nên khó đọc hơn. Tính năng này không được hỗ trợ trên các màn hình hiển thị nhỏ.",
       "autoplayExplain2": "Khi chế độ này được kích hoạt, có các nút điều khiển để phát/tạm dừng câu chuyện và điều chỉnh tốc độ điều hướng.",
-      "linksupdated": "Liên kết đã được cập nhật!"
+      "linksupdated": "Liên kết đã được cập nhật!",
+      "print": "In",
+      "printInstruction1": "Vui lòng chờ toàn bộ nội dung được tải xong rồi mới in trang này",
+      "printInstruction1a": "Có thể không in được một số nội dung trừ khi kích hoạt \"In màu và hình nền\" trong hộp thoại thiết lập In Trang",
+      "printInstruction2": "Không thể chia sẻ trang này với người khác, thay vào đó, hãy chia sẻ ${link}",
+      "link": "liên kết đến câu chuyện",
+      "printOptPageBreak": "Bắt đầu mỗi phần trên trang mới",
+      "makeTextBlack": "Chuyển tất cả văn bản sang màu đen",
+      "printWarning": "Đây là phiên bản in của story map. Nội dung động như video và bản đồ tương tác chỉ khả dụng trong phiên bản trực tuyến tại địa chỉ ${link}",
+      "printMSWarning": "liên kết chỉ khả dụng trong Story trực tuyến",
+      "printVideoWarning": "Video này chỉ xem được trong phiên bản trực tuyến của Story map."
     }
   }
 });

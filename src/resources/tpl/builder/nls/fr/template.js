@@ -20,13 +20,19 @@ define({
       "cfgMedium": "Moyen",
       "cfgLarge": "Grand",
       "socialLinksLabel": "Afficher les liens de partage au bas de chaque section",
-      "socialLinksDescr": "Ceci permet aux lecteurs de référencer et de promouvoir des sections spécifiques de votre %TPL_NAME%. Par exemple, si vous utilisez une icône de partage des sections, les lecteurs accéderont directement à cette section de %TPL_NAME% spécifique et non au début de votre narration. Vos lecteurs peuvent utiliser le lien de réseau social dans la section de titre pour promouvoir l'intégralité de votre %TPL_NAME% (onglet d'en-tête) et faciliter l'accès au début de %TPL_NAME%."
+      "socialLinksDescr": "Ceci permet aux lecteurs de référencer et de promouvoir des sections spécifiques de votre %TPL_NAME%. Par exemple, si vous utilisez une icône de partage des sections, les lecteurs accéderont directement à cette section de %TPL_NAME% spécifique et non au début de votre narration. Vos lecteurs peuvent utiliser le lien de réseau social dans la section de titre pour promouvoir l'intégralité de votre %TPL_NAME% (onglet d'en-tête) et faciliter l'accès au début de %TPL_NAME%.",
+      "socialDisabled": "Cette fonctionnalité n'est actuellement disponible qu'avec la mise en page Volet flottant.",
+      "socialWarning": "Votre récit utilise la mise en page Volet latéral, mais nous recommandons désormais d'utiliser cette option uniquement avec la mise en page Volet flottant afin d'éviter que le volet ne se positionne pas de lui-même dans la section souhaitée pour les narrations avec images. Vous pouvez continuer à utiliser cette option, mais si vous la désactivez, elle ne sera ensuite disponible qu'avec la mise en page Volet flottant."
     },
     "settingsLayoutFonts": {
       "title": "Polices",
       "defaultLbl": "Paramètre par défaut",
       "sectionTitleLbl": "Titre de la section",
       "sectionContentLbl": "Contenu de la section"
+    },
+    "settingsThemeOptions": {
+      "lblOrgTheme": "Thème de l’organisation",
+      "lblModTheme": "Thème actuel"
     },
     "initPopup": {
       "title": "Bienvenue dans"
@@ -50,9 +56,9 @@ define({
     },
     "addEditViewText": {
       "editorPlaceholder": "Ajoutez du texte, des liens et des graphiques de petite taille ici.",
-      "editorActionsTitle": "Actions de la grande scène",
-      "editorActionsHelpDescr": "Utilisez ces contrôles pour créer des liens qui modifient la grande scène. Par exemple, lorsque le lecteur clique sur un lien, vous pouvez déclencher un zoom sur un lieu spécifique de la carte, l'affichage d'une autre carte Web ou l'affichage d'une image.",
-      "mainStageDisabled": "Les actions de la grande scène sont désactivées lorsque l'éditeur est agrandi"
+      "editorActionsTitle": "Actions de narration",
+      "editorActionsHelpDescr": "Créez des liens dans votre contenu pour faciliter votre narration. Une action de narration permet d'accéder à une autre section ou de modifier la grande scène. Par exemple, vous pouvez configurer une action pour déplacer la carte vers un autre emplacement, activer/désactiver l'affichage des couches ou remplacer la grande scène par une autre image, vidéo, carte ou page web.",
+      "mainStageDisabled": "Les actions de narration sont désactivées lorsque l'éditeur est agrandi."
     },
     "organizePopup": {
       "title": "Organiser",
@@ -66,7 +72,7 @@ define({
       "firstSectionExplain": "(Impossible de déplacer la section d'accueil)",
       "exportMainStage": "Contenu de la grande scène",
       "exportPanel": "Contenu du volet",
-      "exportActions": "Actions de la grande scène"
+      "exportActions": "Actions de narration"
     },
     "exportData": {
       "btn": "Exporter le contenu",

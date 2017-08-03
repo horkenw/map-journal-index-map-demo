@@ -34,16 +34,22 @@ define({
       "notAuthorizedBuilder": "Du har inte behörighet att använda byggverktyget %TPL_NAME%.",
       "noBuilderIE": "Byggverktyget kan inte användas med Internet Explorer tidigare än version %VERSION%. %UPGRADE%",
       "noViewerIE": "Den här berättelsen kan inte användas med Internet Explorer tidigare än version %VERSION%. %UPGRADE%",
+      "noViewerIE2": "Du försöker visa denna berättelse med en äldre webbläsare som inte stöds. Det kan röra sig om funktioner som inte fungerar eller andra oväntade problem. Vi rekommenderar dig att uppgradera till Internet Explorer 11 eller använda en annan webbläsare, till exempel Chrome.",
+      "noViewerIE3": "I slutet av 2017 kommer denna berättelse inte längre att kunna läsas in av denna webbläsare. Då måste du använda en webbläsare som stöds om du vill kunna visa den här berättelsen.",
       "upgradeBrowser": "<a href='http://browsehappy.com/' target='_blank'>Uppdatera din webbläsare</a>.",
       "mapLoadingFail": "Något gick fel, kartan lästes inte in på rätt sätt.",
-      "signOut": "Logga ut"
+      "signOut": "Logga ut",
+      "print0": "Det går tyvärr inte att skriva ut berättelsen.",
+      "print1": "Om du vill skriva ut berättelsen använder du utskriftsknappen i dialogrutan Dela.",
+      "print2": "Det finns vanligtvis en utskrivbar version av berättelsen tillgänglig i dialogrutan Dela, men den dialogrutan har inaktiverats av författaren.",
+      "attention": "Obs!"
     },
     "mobileView": {
       "tapForDetails": "Peka för information",
       "clickForDetails": "Läs mer",
       "swipeToExplore": "Svep för att utforska",
-      "tapForMap": "Peka för att återgå till kartan",
-      "clickForMap": "TILLBAKA TILL KARTAN"
+      "tapForMap": "Tryck för att gå tillbaka",
+      "clickForMap": "BAKÅT"
     },
     "floatLayout": {
       "scroll": "Bläddra"
@@ -52,7 +58,9 @@ define({
       "scroll": "Bläddra nedåt för att visa mer"
     },
     "mainStage": {
-      "back": "Bakåt"
+      "back": "Bakåt",
+      "errorDeleted": "Den här länken är inte aktiv (sektionen har tagits bort)",
+      "errorNotPublished": "Den här länken är inte aktiv (sektionen är inte publicerad)"
     },
     "headerFromCommon": {
       "storymapsText": "En berättelsekarta",
@@ -85,7 +93,17 @@ define({
       "autoplayLabel": "Autouppspelningsläge",
       "autoplayExplain1": "Autouppspelningsläge kommer att köras på din berättelse med ett regelbundet intervall. Detta är idealiskt för informationskiosker och offentliga bildskärmar, men du bör vara medveten om att det i andra situationer kan göra berättelsen svårare att läsa. Funktionen stöds inte på små skärmar.",
       "autoplayExplain2": "När läget är aktivt finns det kontroller för att spela upp/pausa berättelsen och anpassa navigeringshastigheten.",
-      "linksupdated": "Länkarna har uppdaterats"
+      "linksupdated": "Länkarna har uppdaterats",
+      "print": "Skriv ut",
+      "printInstruction1": "Vänta tills allt innehåll har lästs in innan du skriver ut den här sidan",
+      "printInstruction1a": "En del innehåll kanske inte skrivs ut om du inte aktiverar Skriv ut bakgrundsfärger och bilder i dialogrutan Utskriftsformat",
+      "printInstruction2": "Det går inte att dela den här sidan med andra, dela i stället ${link}",
+      "link": "länken till berättelsen",
+      "printOptPageBreak": "Börja varje avsnitt på en ny sida",
+      "makeTextBlack": "Gör all text svart",
+      "printWarning": "Det här är en utskriven version av en berättelsekarta. Dynamiskt innehåll som videor och interaktiva kartor är bara tillgängliga i onlineversionen på ${link}",
+      "printMSWarning": "länken är endast tillgänglig i onlineberättelsen",
+      "printVideoWarning": "Den här videon kan bara visas i onlineversionen av berättelsekartan"
     }
   }
 });

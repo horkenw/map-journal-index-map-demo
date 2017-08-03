@@ -34,16 +34,22 @@ define({
       "notAuthorizedBuilder": "%TPL_NAME% oluşturucuyu kullanma yetkiniz yok.",
       "noBuilderIE": "Oluşturucu %VERSION% öncesindeki Internet Explorer sürümlerinde desteklenmiyor. %UPGRADE%",
       "noViewerIE": "Bu hikaye %VERSION% öncesindeki Internet Explorer sürümlerinde desteklenmiyor. %UPGRADE%",
+      "noViewerIE2": "Bu hikayeyi daha eski ve desteklenmeyen bir tarayıcı kullanarak görüntülemeye çalışıyorsunuz. Çalışmayan özellikler olabilir veya başka beklenmedik sorunlarla karşılaşılabilir. Internet Explorer 11 sürümüne yükseltme yapmanız veya Chrome gibi başka bir tarayıcı kullanmanız önerilir.",
+      "noViewerIE3": "2017’nin sonuna doğru bu hikaye artık bu tarayıcıda yüklenemeyecek. Hikayeyi o zaman görüntülemek için desteklenen bir tarayıcı kullanmanız gerekecek.",
       "upgradeBrowser": "<a href='http://browsehappy.com/' target='_blank'>Tarayıcınızı güncelleyin</a>.",
       "mapLoadingFail": "Hata oluştu, harita düzgün şekilde yüklenmedi.",
-      "signOut": "Oturumu Kapat"
+      "signOut": "Oturumu Kapat",
+      "print0": "Üzgünüz, bu hikaye yazdırılamıyor.",
+      "print1": "Bu hikayeyi yazdırmak için paylaşım iletişim kutusunda bulunan yazdır düğmesini kullanın.",
+      "print2": "Üzgünüz, bu hikayenin yazdırılabilir bir versiyonuna genellikle paylaşım iletişim kutusundan ulaşılabilir, ancak söz konusu iletişim kutusu yazar tarafından devre dışı bırakılmış.",
+      "attention": "Dikkat!"
     },
     "mobileView": {
       "tapForDetails": "Ayrıntılar için dokunun",
       "clickForDetails": "Daha fazla bilgi",
       "swipeToExplore": "Keşfetmek için kaydırın",
-      "tapForMap": "Haritaya geri dönmek için dokun",
-      "clickForMap": "HARİTAYA GERİ DÖN"
+      "tapForMap": "Geri gitmek için dokun",
+      "clickForMap": "GERİ"
     },
     "floatLayout": {
       "scroll": "Kaydır"
@@ -52,7 +58,9 @@ define({
       "scroll": "Daha fazlası için kaydır!"
     },
     "mainStage": {
-      "back": "Geri"
+      "back": "Geri",
+      "errorDeleted": "Bu bağlantı etkin değil (bölüm silinmiş)",
+      "errorNotPublished": "Bu bağlantı etkin değil (bölüm yayınlanmamış)"
     },
     "headerFromCommon": {
       "storymapsText": "Hikaye haritası",
@@ -85,7 +93,17 @@ define({
       "autoplayLabel": "Otomatik oynatma modu",
       "autoplayExplain1": "Otomatik oynatma modu düzenli aralıklarla hikayenizde ilerler. Bu özellik, bir kiosk ya da genel ekran için idealdir, ancak bunun bazı durumlarda hikayenin okunmasını güçleştirebileceğini unutmayın. Bu özellik küçük ekranlarda desteklenmez.",
       "autoplayExplain2": "Bu etkin durumdayken hikayeyi oynatacak/duraklatacak ve gezinme hızını ayarlayacak kontroller vardır.",
-      "linksupdated": "Bağlantılar güncellendi!"
+      "linksupdated": "Bağlantılar güncellendi!",
+      "print": "Yazdır",
+      "printInstruction1": "Bu sayfayı yazdırmadan önce tüm içeriğin yüklenmesini bekleyin",
+      "printInstruction1a": "Bazı içerik Sayfayı Yazdır ayarı iletişim kutusundaki \"Arka Plan Renklerini ve Resimlerini Yazdır\" seçeneği etkinleştirilmeden yazdırılamaz",
+      "printInstruction2": "Bu sayfa başkalarıyla paylaşılamaz, bunun yerine ${link} bağlantısını paylaşın",
+      "link": "hikaye bağlantısı",
+      "printOptPageBreak": "Her bölümü yeni sayfada başlat",
+      "makeTextBlack": "Metnin tamamını siyah yap",
+      "printWarning": "Bu, bir hikaye haritasının yazdırılmış versiyonudur. Video ve etkileşimli harita gibi dinamik içerikler yalnızca çevrimiçi versiyon olan ${link} bağlantısında sunulur",
+      "printMSWarning": "bağlantı yalnızca çevrimiçi hikayede kullanılabilir",
+      "printVideoWarning": "Bu video bu hikaye haritasının çevrimiçi versiyonunda görüntülenebilir"
     }
   }
 });

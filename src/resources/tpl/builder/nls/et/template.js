@@ -20,13 +20,19 @@ define({
       "cfgMedium": "Keskmine",
       "cfgLarge": "Suur",
       "socialLinksLabel": "Kuva jagamise lingid iga jaotise allservas",
-      "socialLinksDescr": "Sel viisil saavad lugejad viidata teie malli %TPL_NAME% kindlatele jaotistele ja neid esile tõsta. Kui kasutate näiteks jaotiste jagamise ikooni, satub lugeja lehel %TPL_NAME% sellesse konkreetsesse jaotisse, mitte loo algusse. Tiitlijaotises asuva sotsiaalmeedia lingi kaudu saavad lugejad tervet teie lehte %TPL_NAME% (päisesakki) jagada nii, et uus lugeja viiakse lehe %TPL_NAME% algusse."
+      "socialLinksDescr": "Sel viisil saavad lugejad viidata teie malli %TPL_NAME% kindlatele jaotistele ja neid esile tõsta. Kui kasutate näiteks jaotiste jagamise ikooni, satub lugeja lehel %TPL_NAME% sellesse konkreetsesse jaotisse, mitte loo algusse. Tiitlijaotises asuva sotsiaalmeedia lingi kaudu saavad lugejad tervet teie lehte %TPL_NAME% (päisesakki) jagada nii, et uus lugeja viiakse lehe %TPL_NAME% algusse.",
+      "socialDisabled": "See funktsioon on saadaval ainult ujuva paneeliga paigutuse korral",
+      "socialWarning": "Teie loos on kasutusel külgpaneeliga paigutus, kuid nüüd soovitame seda valikut kasutada üksnes ujuva paneeliga paigutuse korral, et vältida probleemi, mille puhul piltidega lugudes ei pruugita paneeli paigutada teie soovitud jaotisse. Võite selle valiku kasutamist jätkata, kuid selle keelamise korral on valik saadaval üksnes siis, kui kasutusel on ujuva paneeliga paigutus."
     },
     "settingsLayoutFonts": {
       "title": "Fondid",
       "defaultLbl": "Vaikimisi",
       "sectionTitleLbl": "Jaotise pealkiri",
       "sectionContentLbl": "Jaotise sisu"
+    },
+    "settingsThemeOptions": {
+      "lblOrgTheme": "Organisatsiooni teema",
+      "lblModTheme": "Praegune teema"
     },
     "initPopup": {
       "title": "Tere tulemast"
@@ -50,9 +56,9 @@ define({
     },
     "addEditViewText": {
       "editorPlaceholder": "Siia saate lisada teksti, lingid ja väiksemad pildid.",
-      "editorActionsTitle": "Põhisektsiooni toimingud",
-      "editorActionsHelpDescr": "Nende juhtelementide abil saate luua põhisektsiooni muutvad lingid. Näiteks võite soovida, et kui lugeja klikib kindlat linki, kuvatakse kaardil suuremana konkreetne asukoht, kuvatakse mõni muu veebikaart või kuvatakse pilt.",
-      "mainStageDisabled": "Kui redaktor on maksimeeritud, on põhisektsiooni toimingud keelatud"
+      "editorActionsTitle": "Loo toimingud",
+      "editorActionsHelpDescr": "Võimaldab luua loo jaoks lingid, mis aitavad lugu rääkida. Loo toiming võib olla link mõnele muule jaotisele või muuta pealava. Näiteks saate konfigureerida toimingu, mis liigutab kaardi teise kohta, lülitab sisse või välja kaardi kihte või muudab pealava meedia muuks pildiks, videoks, kaardiks või veebileheks.",
+      "mainStageDisabled": "Kui redaktor on maksimeeritud, on loo toimingud välja lülitatud"
     },
     "organizePopup": {
       "title": "Paiguta",
@@ -66,7 +72,7 @@ define({
       "firstSectionExplain": "(Kodujaotist ei saa teisaldada)",
       "exportMainStage": "Põhisektsiooni sisu",
       "exportPanel": "Paneeli sisu",
-      "exportActions": "Põhisektsiooni toimingud"
+      "exportActions": "Loo toimingud"
     },
     "exportData": {
       "btn": "Ekspordi sisu",

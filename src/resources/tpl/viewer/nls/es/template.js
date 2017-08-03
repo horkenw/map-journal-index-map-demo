@@ -34,16 +34,22 @@ define({
       "notAuthorizedBuilder": "No estás autorizado para utilizar el builder de %TPL_NAME%.",
       "noBuilderIE": "El builder no es compatible con versiones de Internet Explorer anteriores a la %VERSION%. %UPGRADE%",
       "noViewerIE": "Esta historia no es compatible con versiones de Internet Explorer anteriores a la %VERSION%. %UPGRADE%",
+      "noViewerIE2": "Está intentando ver esta historia con un navegador antiguo no compatible. Es posible que algunas características no funcionen o que se produzcan otros problemas inesperados. Es recomendable actualizar a Internet Explorer 11 o usar otro navegador como Chrome.",
+      "noViewerIE3": "A finales de 2017, esta historia no se podrá cargar en este navegador. Cuando eso ocurra, deberá usar un navegador compatible para ver la historia.",
       "upgradeBrowser": "<a href='http://browsehappy.com/' target='_blank'>Actualiza tu navegador</a>.",
       "mapLoadingFail": "Se ha producido un error, el mapa no se cargó correctamente.",
-      "signOut": "Cerrar sesión"
+      "signOut": "Cerrar sesión",
+      "print0": "Esta historia no se puede imprimir.",
+      "print1": "Para imprimir esta historia, utilice el botón de impresión situado en el cuadro de diálogo para compartir.",
+      "print2": "Normalmente se puede acceder a una versión imprimible de la historia a través del cuadro de diálogo para compartir, pero el autor ha deshabilitado este cuadro de diálogo.",
+      "attention": "Atención"
     },
     "mobileView": {
       "tapForDetails": "Tocar para ver detalles",
       "clickForDetails": "Más información",
       "swipeToExplore": "Barrer para explorar",
-      "tapForMap": "Tocar para volver al mapa",
-      "clickForMap": "VOLVER AL MAPA"
+      "tapForMap": "Tocar para volver",
+      "clickForMap": "ATRÁS"
     },
     "floatLayout": {
       "scroll": "Desplazar"
@@ -52,7 +58,9 @@ define({
       "scroll": "Desplázate hacia abajo para obtener más información"
     },
     "mainStage": {
-      "back": "Atrás"
+      "back": "Atrás",
+      "errorDeleted": "Este vínculo no está activo (se ha eliminado la sección)",
+      "errorNotPublished": "Este vínculo no está activo (no se publica la sección)"
     },
     "headerFromCommon": {
       "storymapsText": "Un mapa de historias",
@@ -85,7 +93,17 @@ define({
       "autoplayLabel": "Modo de reproducción automática",
       "autoplayExplain1": "El modo de reproducción automática avanzará por la historia a intervalos regulares. Esto es idóneo para monitores de quioscos o de visualización pública, pero debes tener en cuenta que, en otras situaciones, puede que dificulte la lectura de la historia. Esta función no es compatible con pantallas pequeñas.",
       "autoplayExplain2": "Cuando este modo está activado, hay disponibles controles para reproducir o detener la historia y para ajustar la velocidad de navegación.",
-      "linksupdated": "Vínculos actualizados"
+      "linksupdated": "Vínculos actualizados",
+      "print": "Imprimir",
+      "printInstruction1": "Espere a que se cargue todo el contenido antes de imprimir esta página",
+      "printInstruction1a": "Puede que parte del contenido no se imprima a menos que habilite \"Imprimir colores e imágenes de fondo\" en el cuadro de diálogo de configuración de Imprimir página",
+      "printInstruction2": "Esta página no se puede compartir con otros, en su lugar comparta ${link}",
+      "link": "vínculo a la historia",
+      "printOptPageBreak": "Empezar cada sección en una página nueva",
+      "makeTextBlack": "Configurar todo el texto en color negro",
+      "printWarning": "Esta es una versión impresa de un story map. El contenido dinámico, como vídeos y mapas interactivos, solo está disponible en la versión en línea en ${link}",
+      "printMSWarning": "vínculo solo disponible en la historia en línea",
+      "printVideoWarning": "Este vídeo se puede ver en la versión en línea de este story map"
     }
   }
 });

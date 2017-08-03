@@ -34,16 +34,22 @@ define({
       "notAuthorizedBuilder": "您未取得使用 %TPL_NAME% 建立器的授權。",
       "noBuilderIE": "低於版本 %VERSION% 的 Internet Explorer 不支援建構器。%UPGRADE%",
       "noViewerIE": "低於版本 %VERSION% 的 Internet Explorer 不支援該故事。%UPGRADE%",
+      "noViewerIE2": "您正在嘗試使用較舊、不支援的瀏覽器來檢視此故事。可能有未運作的圖徵或發生其他非預期的問題。我們建議您升級至 Internet Explorer 11 或使用其他瀏覽器，例如 Chrome。",
+      "noViewerIE3": "在 2017 年末，無法再於此瀏覽器上載入此故事。到時您必須使用支援的瀏覽器來檢視此故事。",
       "upgradeBrowser": "<a href='http://browsehappy.com/' target='_blank'>請更新您的瀏覽器</a>。",
       "mapLoadingFail": "發生了一些錯誤，地圖未正確載入。",
-      "signOut": "登出"
+      "signOut": "登出",
+      "print0": "很抱歉，無法列印此故事。",
+      "print1": "若要列印此故事，請使用分享對話方塊中的列印按鈕。",
+      "print2": "很抱歉，一般可透過分享對話方塊存取故事的可列印版本，但創作者已停用此對話方塊。",
+      "attention": "注意!"
     },
     "mobileView": {
       "tapForDetails": "點選查看詳細資訊",
       "clickForDetails": "瞭解詳細資訊",
       "swipeToExplore": "滑動以進行瀏覽",
-      "tapForMap": "點選以返回地圖",
-      "clickForMap": "返回到地圖"
+      "tapForMap": "點選以返回",
+      "clickForMap": "返回"
     },
     "floatLayout": {
       "scroll": "捲動"
@@ -52,7 +58,9 @@ define({
       "scroll": "向下捲動以查看更多資訊！"
     },
     "mainStage": {
-      "back": "上一步"
+      "back": "上一步",
+      "errorDeleted": "此連結停用 (已刪除部分)",
+      "errorNotPublished": "此連結停用 (未發佈部分)"
     },
     "headerFromCommon": {
       "storymapsText": "故事地圖",
@@ -85,7 +93,17 @@ define({
       "autoplayLabel": "自動播放模式",
       "autoplayExplain1": "自動播放模式將以一定間隔向前播放您的故事。這很適用於書報攤或公共顯示器，但請注意，在其他情況下可能會使得故事更難閱讀。此圖徵不支援小畫面。",
       "autoplayExplain2": "啟用此模式時，可使用控制項來播放/暫停故事和調整瀏覽速度。",
-      "linksupdated": "已更新連結!"
+      "linksupdated": "已更新連結!",
+      "print": "列印",
+      "printInstruction1": "請等到全部內容皆載入完畢，再列印此頁面",
+      "printInstruction1a": "除非您在「列印頁面」設定對話方塊中啟用「列印背景顏色和圖片」，否則可能無法列印部分內容",
+      "printInstruction2": "無法與其他人分享此頁面，請改為分享 ${link}",
+      "link": "連結至故事",
+      "printOptPageBreak": "在一個新頁面上開始每個部分",
+      "makeTextBlack": "將所有文字變成黑色",
+      "printWarning": "這是列印版本的故事地圖。只能在 ${link} 的線上版本中取得影片和互動式地圖之類的動態內容",
+      "printMSWarning": "只能在線上故事中取得的連結",
+      "printVideoWarning": "可在此故事地圖的線上版本中檢視這段影片"
     }
   }
 });

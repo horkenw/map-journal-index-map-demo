@@ -34,16 +34,22 @@ define({
       "notAuthorizedBuilder": "Nie masz uprawnień do korzystania z kreatora %TPL_NAME%.",
       "noBuilderIE": "Kreator nie jest obsługiwany przez przeglądarkę Internet Explorer w wersji starszej niż %VERSION%. %UPGRADE%",
       "noViewerIE": "Ta narracja nie jest obsługiwana przez przeglądarkę Internet Explorer w wersji starszej niż %VERSION%. %UPGRADE%",
+      "noViewerIE2": "Próbujesz wyświetlić tę narrację za pomocą starszej, nieobsługiwanej przeglądarki. Niektóre funkcje mogą nie działać lub mogą wystąpić inne nieoczekiwane problemy. Zalecamy zaktualizowanie przeglądarki do programu Internet Explorer 11 lub użycie innej przeglądarki, na przykład Chrome.",
+      "noViewerIE3": "Pod koniec 2017 roku ta narracja nie będzie się już wczytywała w tej przeglądarce. Do jej wyświetlenia konieczne będzie użycie obsługiwanej przeglądarki.",
       "upgradeBrowser": "<a href='http://browsehappy.com/' target='_blank'>Zaktualizuj przeglądarkę</a>.",
       "mapLoadingFail": "Wystąpił pewien problem, nie wczytano mapy prawidłowo.",
-      "signOut": "Wyloguj się"
+      "signOut": "Wyloguj się",
+      "print0": "Niestety, tej narracji nie można wydrukować.",
+      "print1": "Aby wydrukować tę narrację, użyj przycisku drukowania znajdującego się w oknie dialogowym udostępniania.",
+      "print2": "Niestety, wersja narracji przeznaczona do druku jest zwykle dostępna za pośrednictwem okna dialogowego udostępniania, ale to okno zostało zablokowane przez autora.",
+      "attention": "Uwaga!"
     },
     "mobileView": {
       "tapForDetails": "Wskaż, aby uzyskać szczegółowe informacje",
       "clickForDetails": "Dowiedz się więcej",
       "swipeToExplore": "Przesuń, aby przejrzeć",
-      "tapForMap": "Wskaż, aby powrócić do mapy",
-      "clickForMap": "POWRÓT DO MAPY"
+      "tapForMap": "Dotknij, aby wrócić",
+      "clickForMap": "WSTECZ"
     },
     "floatLayout": {
       "scroll": "Przewiń"
@@ -52,7 +58,9 @@ define({
       "scroll": "Przewiń w dół, aby uzyskać więcej informacji!"
     },
     "mainStage": {
-      "back": "Wstecz"
+      "back": "Wstecz",
+      "errorDeleted": "To łącze jest nieaktywne (sekcja została usunięta)",
+      "errorNotPublished": "To łącze jest nieaktywne (sekcja nie została opublikowana)"
     },
     "headerFromCommon": {
       "storymapsText": "Mapa narracji (Story Map)",
@@ -85,7 +93,17 @@ define({
       "autoplayLabel": "Tryb automatycznego odtwarzania",
       "autoplayExplain1": "W trybie automatycznego odtwarzania narracja jest prezentowana w stałym tempie. Ten tryb doskonale nadaje się do monitora kiosku internetowego lub wyświetlacza publicznego, ale należy pamiętać, że w innych sytuacjach może pogorszyć czytelność narracji. Ta funkcja nie jest obsługiwana na małych wyświetlaczach.",
       "autoplayExplain2": "Po włączeniu tego trybu udostępniane są elementy sterujące do włączania odtwarzania/wstrzymywania narracji oraz do regulacji szybkości nawigacji.",
-      "linksupdated": "Zaktualizowano łącza!"
+      "linksupdated": "Zaktualizowano łącza!",
+      "print": "Drukuj",
+      "printInstruction1": "Poczekaj na wczytanie całej zawartości przed drukowaniem tej strony",
+      "printInstruction1a": "Niektóre zasoby mogą nie być drukowane, dopóki nie zostanie włączona opcja „Drukuj kolory i obrazy w tle” w oknie dialogowym ustawień drukowania",
+      "printInstruction2": "Tej strony nie można udostępnić innym użytkownikom, zamiast niej można udostępnić łącze ${link}",
+      "link": "łącze do narracji",
+      "printOptPageBreak": "Zacznij każdą sekcję na nowej stronie",
+      "makeTextBlack": "Ustaw cały tekst jako czarny",
+      "printWarning": "To jest drukowana wersja mapy narracyjnej. Zasoby dynamiczne, takie jak wideo i mapy interaktywne są dostępne wyłącznie w wersji online na stronie ${link}",
+      "printMSWarning": "łącze dostępne tylko w narracji online",
+      "printVideoWarning": "To wideo można obejrzeć w wersji online tej mapy narracyjnej"
     }
   }
 });

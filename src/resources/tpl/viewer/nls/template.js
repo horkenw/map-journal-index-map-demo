@@ -35,16 +35,22 @@ define({
 				notAuthorizedBuilder: "You are not authorized to use %TPL_NAME% builder.",
 				noBuilderIE: "The builder is not supported on Internet Explorer before version %VERSION%. %UPGRADE%",
 				noViewerIE: "This story is not supported in Internet Explorer before version %VERSION%. %UPGRADE%",
+				noViewerIE2: "You are attempting to view this story using an older, unsupported browser. There may be features that do not work or other unexpected issues. We suggest you upgrade to Internet Explorer 11 or use another browser, such as Chrome.",
+				noViewerIE3: "In late 2017, this story will no longer load on this browser. At that time, you must use a supported browser to view this story.",
 				upgradeBrowser: "<a href='http://browsehappy.com/' target='_blank'>Please update your browser</a>.",
 				mapLoadingFail: "Something went wrong, the map did not load correctly.",
-				signOut: "Sign Out"
+				signOut: "Sign Out",
+				print0: "Sorry, this story cannot be printed.",
+				print1: "To print this story, please use the print button located in the share dialog.",
+				print2: "Sorry, a printable version of the story is typically accessible through the share dialog, but this dialog has been disabled by the author.",
+				attention: "Attention!"
 			},
 			mobileView: {
 				tapForDetails: "Tap for details",
 				clickForDetails: "Learn more",
 				swipeToExplore: "Swipe to explore",
-				tapForMap: "Tap to get back to the Map",
-				clickForMap: "BACK TO MAP"
+				tapForMap: "Tap to go back",
+				clickForMap: "BACK"
 			},
 			floatLayout: {
 				scroll: "Scroll"
@@ -53,7 +59,9 @@ define({
 				scroll: "Scroll down for more!"
 			},
 			mainStage: {
-				back: "Back"
+				back: "Back",
+				errorDeleted: "This link is not active (section has been deleted)",
+				errorNotPublished: "This link is not active (section is not published)"
 			},
 			headerFromCommon: {
 				storymapsText: "A story map",
@@ -86,11 +94,22 @@ define({
 				autoplayLabel: "Autoplay mode",
 				autoplayExplain1: "Autoplay mode will advance through your story at a regular interval. This is ideal on a kiosk or public display monitor, but be aware that in other situations it may make the story harder to read. This feature isn't supported on small displays.",
 				autoplayExplain2: "When this mode is active there are controls to play/pause the story and adjust the navigation speed.",
-				linksupdated: "Links updated!"
+				linksupdated: "Links updated!",
+				print: "Print",
+				printInstruction1: "Please wait for all the content to load before printing this page",
+				printInstruction1a: "Some content may not print unless you enable \"Print Background Colors and Images\" in the Print Page setup dialog",
+				printInstruction2: "This page cannot be shared with others, instead share the ${link}",
+				link: "link to the story",
+				printOptPageBreak: "Begin each section on a new page",
+				makeTextBlack: "Make all text black",
+				printWarning: "This is a printed version of a story map. Dynamic content such as videos and interactive maps is only available in the online version at ${link}",
+				printMSWarning: "link available only in online story",
+				printVideoWarning: "This video can be viewed in the online version of this story map"
 			}
         }
     }),
 	"ar": 1,
+	"bs": 1,
 	"cs": 1,
 	"da": 1,
 	"de": 1,
@@ -100,7 +119,9 @@ define({
 	"fi": 1,
 	"fr": 1,
 	"he": 1,
-	"hr": 1, 
+	"hi": 1,
+	"hr": 1,
+	"id": 1,
 	"it": 1,
 	"ja": 1,
 	"ko": 1,
@@ -119,6 +140,6 @@ define({
 	"tr": 1,
 	"vi": 1,
 	"zh-cn": 1,
-	"zh-hk": 1, 
-	"zh-tw": 1 
+	"zh-hk": 1,
+	"zh-tw": 1
 });

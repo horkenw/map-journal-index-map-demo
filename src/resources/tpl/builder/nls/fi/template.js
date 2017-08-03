@@ -20,13 +20,19 @@ define({
       "cfgMedium": "Keskisuuri",
       "cfgLarge": "Suuri",
       "socialLinksLabel": "Näytä jakamislinkit kunkin osan alareunassa",
-      "socialLinksDescr": "Tämän toiminnon avulla lukijat voivat viitata tiettyihin tarinan %TPL_NAME% osiin tai mainostaa niitä. Jos käytät esimerkiksi osien jakamiskuvaketta, lukijat päätyvät tarinan %TPL_NAME% tiettyyn osaan eivätkä tarinan alkuun. Lukijat voivat käyttää otsikko-osan sosiaalisen median linkkiä koko tarinan %TPL_NAME% (Otsikko-välilehti) mainostamiseen, jolloin he päätyvät tarinan %TPL_NAME% alkuun."
+      "socialLinksDescr": "Tämän toiminnon avulla lukijat voivat viitata tiettyihin tarinan %TPL_NAME% osiin tai mainostaa niitä. Jos käytät esimerkiksi osien jakamiskuvaketta, lukijat päätyvät tarinan %TPL_NAME% tiettyyn osaan eivätkä tarinan alkuun. Lukijat voivat käyttää otsikko-osan sosiaalisen median linkkiä koko tarinan %TPL_NAME% (Otsikko-välilehti) mainostamiseen, jolloin he päätyvät tarinan %TPL_NAME% alkuun.",
+      "socialDisabled": "Tämä kohde on käytettävissä vain Kelluva ruutu -asettelussa.",
+      "socialWarning": "Tarinasi käyttää Sivupaneeli-asettelua, mutta suosittelemme käyttämään tätä vaihtoehtoa vain Kelluva paneeli -asettelun yhteydessä, jotta ruutu sijoittuu haluamaasi sijaintiin kuvia sisältävissä tarinoissa. Voit jatkaa tämän vaihtoehdon käyttöä, mutta jos poistat sen käytöstä, se on sen jälkeen käytettävissä vain Kelluva ruutu -asettelua käytettäessä."
     },
     "settingsLayoutFonts": {
       "title": "Fontit",
       "defaultLbl": "Oletusarvo",
       "sectionTitleLbl": "Osan otsikko",
       "sectionContentLbl": "Osan sisältö"
+    },
+    "settingsThemeOptions": {
+      "lblOrgTheme": "Organisaation teema",
+      "lblModTheme": "Nykyinen teema"
     },
     "initPopup": {
       "title": "Tervetuloa"
@@ -50,9 +56,9 @@ define({
     },
     "addEditViewText": {
       "editorPlaceholder": "Lisää tähän tekstiä, linkkejä ja pieniä kuvia.",
-      "editorActionsTitle": "Päävaiheen toiminnot",
-      "editorActionsHelpDescr": "Näiden kontrollien avulla voit luoda linkkejä, jotka muuttavat päävaihetta. Kun lukija napsauttaa esimerkiksi linkkiä, haluat ehkä tarkentaa karttaa tiettyyn sijaintiin, tuoda näkyviin toisen Web-kartan tai kuvan.",
-      "mainStageDisabled": "Päävaiheen toiminnot eivät ole käytettävissä, kun muokkaus on maksimoitu"
+      "editorActionsTitle": "Tarinatoiminnot",
+      "editorActionsHelpDescr": "Luo kerrontaan linkkejä, jotka auttavat tarinan kertomisessa. Tarinatoiminnon voi linkittää toiseen osioon tai se voi vaihtaa päävaihetta. Voit esimerkiksi määrittää toiminnon, joka siirtää kartan toiseen paikkaan, ottaa kartan kerroksia käyttöön tai poistaa niitä käytöstä tai muuttaa päävaiheen mediasisällön toiseen kuvaan, videoon, karttaan tai verkkosivuun.",
+      "mainStageDisabled": "Tarinatoiminnot eivät ole käytettävissä, kun muokkaus on maksimoitu"
     },
     "organizePopup": {
       "title": "Järjestä",
@@ -66,7 +72,7 @@ define({
       "firstSectionExplain": "(Kotisivuosaa ei voi siirtää)",
       "exportMainStage": "Päävaiheen sisältö",
       "exportPanel": "Ruudun sisältö",
-      "exportActions": "Päävaiheen toiminnot"
+      "exportActions": "Tarinatoiminnot"
     },
     "exportData": {
       "btn": "Vie sisältö",

@@ -20,13 +20,19 @@ define({
       "cfgMedium": "Vidējs",
       "cfgLarge": "Liels",
       "socialLinksLabel": "Katras sadaļas apakšā parādīt koplietošanas saites",
-      "socialLinksDescr": "Tas sniedz lasītājiem iespēju veidot atsauces uz jūsu %TPL_NAME%, kā arī reklamēt konkrētas šī vienuma sadaļas. Piemēram, ja izmantosiet sadaļu koplietošanas ikonu, lasītāji nokļūs šajā konkrētajā %TPL_NAME% sadaļā, nevis jūsu stāsta sākumā. Jūsu lasītāji var izmantot virsraksta sadaļā esošo sociālās multivides saiti, lai reklamētu visu jūsu %TPL_NAME% (galvenes cilne), kā arī varat veicināt viņu nokļūšanu %TPL_NAME% sākumā."
+      "socialLinksDescr": "Tas sniedz lasītājiem iespēju veidot atsauces uz jūsu %TPL_NAME%, kā arī reklamēt konkrētas šī vienuma sadaļas. Piemēram, ja izmantosiet sadaļu koplietošanas ikonu, lasītāji nokļūs šajā konkrētajā %TPL_NAME% sadaļā, nevis jūsu stāsta sākumā. Jūsu lasītāji var izmantot virsraksta sadaļā esošo sociālās multivides saiti, lai reklamētu visu jūsu %TPL_NAME% (galvenes cilne), kā arī varat veicināt viņu nokļūšanu %TPL_NAME% sākumā.",
+      "socialDisabled": "Šis elements ir pieejams tikai peldošā paneļa izkārtojumā",
+      "socialWarning": "Jūsu stāstam tiek izmantots sāna paneļa izkārtojums, bet būtu ieteicams šo opciju izmantot tikai kopā ar peldošā paneļa izkārtojumu, lai izvairītos no problēmas, kad panelis stāstos ar attēliem netiek novietots vēlamajā sadaļā. Jūs varat turpināt izmantot šo opciju, bet, ja tā tiks atspējota, tā būs pieejama tikai, izmantojot peldošā paneļa izkārtojumu."
     },
     "settingsLayoutFonts": {
       "title": "Fonti",
       "defaultLbl": "Noklusējums",
       "sectionTitleLbl": "Sadaļas virsraksts",
       "sectionContentLbl": "Sadaļas saturs"
+    },
+    "settingsThemeOptions": {
+      "lblOrgTheme": "Organizācijas tēma",
+      "lblModTheme": "Pašreizējā tēma"
     },
     "initPopup": {
       "title": "Laipni lūdzam"
@@ -50,9 +56,9 @@ define({
     },
     "addEditViewText": {
       "editorPlaceholder": "Šeit pievienojiet tekstu, saites un maza izmēra grafikas.",
-      "editorActionsTitle": "Galvenā posma darbības",
-      "editorActionsHelpDescr": "Izmantojiet šīs vadīklas, lai izveidotu saites, kas tiks mainītas galvenajā posmā. Piemēram, kad lietotājs noklikšķinās uz saites, iespējams, vēlēsieties mērogmainīt karti līdz konkrētam izvietojumam, parādīt citu web karti vai attēlu.",
-      "mainStageDisabled": "Galvenā posma darbības ir atspējotas, ja redaktors ir maksimizēts"
+      "editorActionsTitle": "Stāsta darbības",
+      "editorActionsHelpDescr": "Izveidojiet savā stāstījumā saites, kuras palīdz pastāstīt stāstu. Stāsta darbības var saistīt ar citu sadaļu vai mainīt galveno posmu. Piemēram, jūs varat konfigurēt darbību, lai pārvietotu karti uz citu vietu, ieslēgtu/izslēgtu kartes slāņus vai mainītu galvenā posma mediju uz citu attēlu, video, karti vai tīmekļa lapu.",
+      "mainStageDisabled": "Stāsta darbības ir atspējotas, ja redaktors ir maksimizēts"
     },
     "organizePopup": {
       "title": "Organizē",
@@ -66,7 +72,7 @@ define({
       "firstSectionExplain": "(Sākuma sadaļu nevar pārvietot)",
       "exportMainStage": "Galvenā posma saturs",
       "exportPanel": "Paneļa saturs",
-      "exportActions": "Galvenā posma darbības"
+      "exportActions": "Stāsta darbības"
     },
     "exportData": {
       "btn": "Eksportēt saturu",

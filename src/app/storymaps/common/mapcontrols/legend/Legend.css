@@ -41,11 +41,19 @@
 	margin-left: 8px !important;
 }
 
+.legendContainer .content.full-bg {
+	margin: 1px !important;
+	border-radius: 0 0 7px 7px;
+	padding: 5px;
+	background: #fff;
+	color: #333;
+}
+
 .legendContainer .content.settingsOpen {
 	min-height: 55px
 }
 
-.legendContainer, 
+.legendContainer,
 .legendContainer .settingsOverlay {
 	-webkit-border-bottom-right-radius: 8px;
 	-webkit-border-bottom-left-radius: 8px;

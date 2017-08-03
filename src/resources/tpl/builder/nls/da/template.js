@@ -20,13 +20,19 @@ define({
       "cfgMedium": "Mellem",
       "cfgLarge": "Stor",
       "socialLinksLabel": "Vis delings-links nederst i hver sektion",
-      "socialLinksDescr": "Dette gør det muligt for læserne henvise til og fremhæve bestemte sektioner i din %TPL_NAME%. Hvis du f.eks. bruger et sektionsdelingsikon, vil læserne lande på den specifikke %TPL_NAME%-sektion i stedet for på begyndelsen af historien. Dine læsere kan bruge linket til sociale medier i titelsektionen til at fremhæve hele din %TPL_NAME% (header-fane) og få dem til at lande i starten af %TPL_NAME%."
+      "socialLinksDescr": "Dette gør det muligt for læserne henvise til og fremhæve bestemte sektioner i din %TPL_NAME%. Hvis du f.eks. bruger et sektionsdelingsikon, vil læserne lande på den specifikke %TPL_NAME%-sektion i stedet for på begyndelsen af historien. Dine læsere kan bruge linket til sociale medier i titelsektionen til at fremhæve hele din %TPL_NAME% (header-fane) og få dem til at lande i starten af %TPL_NAME%.",
+      "socialDisabled": "Dette objekt er kun tilgængeligt med Flydende  panel-layout",
+      "socialWarning": "Din historie bruger Sidepanel-layout, men vi anbefaler nu, at du kun benytter denne indstilling med Flydende  panel-layout for at undgå et problem, hvor panelet måske ikke placeres i den ønskede sektion for fortællinger med billeder. Du kan fortsætte med at bruge denne indstilling, men hvis du deaktiverer den, vil den kun være tilgængelig, når du bruger Flydende panel-layout."
     },
     "settingsLayoutFonts": {
       "title": "Skrifttyper",
       "defaultLbl": "Standard",
       "sectionTitleLbl": "Sektionstitel",
       "sectionContentLbl": "Sektionsindhold"
+    },
+    "settingsThemeOptions": {
+      "lblOrgTheme": "Organisationstema",
+      "lblModTheme": "Aktuelt tema"
     },
     "initPopup": {
       "title": "Velkommen til"
@@ -50,9 +56,9 @@ define({
     },
     "addEditViewText": {
       "editorPlaceholder": "Tilføj tekst, links og små billeder her.",
-      "editorActionsTitle": "Handlinger i hovedområdet",
-      "editorActionsHelpDescr": "Brug disse knapper til at oprette links, der redigerer hovedområdet. Når læseren f.eks. klikker på et link, vil du måske zoome kortet til en bestemt position, vise et andet webkort eller vise et billede.",
-      "mainStageDisabled": "Handlinger for hovedområdet er deaktiveret, når tekstredigeringsprogrammet  er maksimeret"
+      "editorActionsTitle": "Historiehandlinger",
+      "editorActionsHelpDescr": "Opret links i din fortælling, som kan hjælpe dig med at fortælle historien. En historiehandling kan skabe forbindelse til en anden sektion eller ændre hovedscenen. Du kan f.eks. konfigurere en handling, der flytter kortet til en anden position, slår kortlag til/fra eller ændrer hovedscenens medie til et andet billede, en anden video, kort eller webside.",
+      "mainStageDisabled": "Historiehandlinger kan deaktiveres, når editoren er maksimeret"
     },
     "organizePopup": {
       "title": "Organisér",
@@ -66,7 +72,7 @@ define({
       "firstSectionExplain": "(Startsektionen kan ikke flyttes)",
       "exportMainStage": "Hovedområdets indhold",
       "exportPanel": "Panelindhold",
-      "exportActions": "Handlinger for hovedområdet"
+      "exportActions": "Historiehandlinger"
     },
     "exportData": {
       "btn": "Eksportér indhold",

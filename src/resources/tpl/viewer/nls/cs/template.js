@@ -34,16 +34,22 @@ define({
       "notAuthorizedBuilder": "Nejste oprávněni používat nástroj pro tvorbu %TPL_NAME%",
       "noBuilderIE": "Nástroj pro tvorbu není podporován v aplikaci Internet Explorer ve verzi nižší než %VERSION%. %UPGRADE%",
       "noViewerIE": "Tento příběh není podporován v prohlížeči Internet Explorer ve verzi nižší než %VERSION%. %UPGRADE%",
+      "noViewerIE2": "Pokoušíte se tento příběh prohlížet pomocí staršího, nepodporovaného prohlížeče. Některé funkce nemusí fungovat nebo se mohou vyskytnout jiné nečekané problémy. Doporučujeme přejít na Internet Explorer 11 nebo použít jiný prohlížeč, například Chrome.",
+      "noViewerIE3": "Koncem roku 2017 se tento příběh v tomto prohlížeči již nenačte. K jeho prohlížení bude nutné použít podporovaný prohlížeč.",
       "upgradeBrowser": "<a href='http://browsehappy.com/' target='_blank'>Prosím, aktualizujte prohlížeč</a>.",
       "mapLoadingFail": "Něco se pokazilo, mapa se nenahrála správně.",
-      "signOut": "Odhlásit"
+      "signOut": "Odhlásit",
+      "print0": "Je nám líto, tento příběh nelze vytisknout.",
+      "print1": "Chcete-li tento příběh vytisknout, použijte tlačítko tisku v dialogovém okně sdílení.",
+      "print2": "Omlouváme se. Tisknutelná verze příběhu je zpravidla přístupná přes dialogové okno sdílení, ale autor toto dialogové okno zakázal.",
+      "attention": "Upozornění!"
     },
     "mobileView": {
       "tapForDetails": "Klepnutím zobrazíte podrobnosti.",
       "clickForDetails": "Zjistit více",
       "swipeToExplore": "Přejeďte prstem, chcete-li zahájit prohlížení.",
-      "tapForMap": "Klepnutím se vrátíte na mapu.",
-      "clickForMap": "ZPĚT DO MAPY"
+      "tapForMap": "Klepnutím se vrátíte",
+      "clickForMap": "ZPĚT"
     },
     "floatLayout": {
       "scroll": "Posunout"
@@ -52,7 +58,9 @@ define({
       "scroll": "Chcete-li pokračovat, posuňte zobrazení dolů!"
     },
     "mainStage": {
-      "back": "Zpět"
+      "back": "Zpět",
+      "errorDeleted": "Tento odkaz není aktivní (sekce byla smazána)",
+      "errorNotPublished": "Tento odkaz není aktivní (sekce nebyla publikována)"
     },
     "headerFromCommon": {
       "storymapsText": "Mapa s příběhem",
@@ -85,7 +93,17 @@ define({
       "autoplayLabel": "Režim automatického přehrávání",
       "autoplayExplain1": "Režim automatického přehrávání bude příběhem procházet v pravidelných intervalech. Ideální pro použití na výstavních stáncích nebo veřejných monitorech, buďte si však vědomi toho, že v některých případech to může znesnadnit čtení příběhu. Tato funkce není podporována na malých obrazovkách.",
       "autoplayExplain2": "Je-li tento režim aktivní, budou k dispozici ovládací prvky ke spuštění/pozastavení přehrávání příběhu a k nastavení rychlosti procházení.",
-      "linksupdated": "Odkazy aktualizovány!"
+      "linksupdated": "Odkazy aktualizovány!",
+      "print": "Tisk",
+      "printInstruction1": "Před vytisknutím této stránky počkejte, než se načte všechen obsah.",
+      "printInstruction1a": "Některý obsah se nemusí vytisknout, pokud neaktivujete volbu „Tisknout obrázky a barvy pozadí“ v dialogovém okně nastavení tisknuté stránky.",
+      "printInstruction2": "Tuto stránku nelze sdílet s ostatními, sdílejte místo toho ${link}.",
+      "link": "odkaz na příběh",
+      "printOptPageBreak": "Zahajte každou sekci na nové straně",
+      "makeTextBlack": "Zobrazit veškerý text černě",
+      "printWarning": "Toto je tištěná verze mapy s příběhem. Dynamický obsah, jako jsou videa a interaktivní mapy, je k dispozici pouze v online verzi na adrese ${link}.",
+      "printMSWarning": "odkaz je k dispozici pouze v online příběhu",
+      "printVideoWarning": "Toto video lze zobrazit v online verzi této mapy s příběhem."
     }
   }
 });

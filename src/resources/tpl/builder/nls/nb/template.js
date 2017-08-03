@@ -20,13 +20,19 @@ define({
       "cfgMedium": "Middels",
       "cfgLarge": "Stor",
       "socialLinksLabel": "Vis delingskoblinger nederst i hver seksjon",
-      "socialLinksDescr": "Dette gjør at leserne kan referere til og promotere bestemte seksjoner av %TPL_NAME%. Hvis du for eksempel bruker et delingsikon for seksjoner, lander leserne på den bestemte %TPL_NAME%-seksjonen i stedet for på begynnelsen av historien. Leserne kan bruke koblingen for sosiale medier i tittelseksjonen for å fremme hele %TPL_NAME% (overskriftskategorien) og få dem til å lande på starten av %TPL_NAME%."
+      "socialLinksDescr": "Dette gjør at leserne kan referere til og promotere bestemte seksjoner av %TPL_NAME%. Hvis du for eksempel bruker et delingsikon for seksjoner, lander leserne på den bestemte %TPL_NAME%-seksjonen i stedet for på begynnelsen av historien. Leserne kan bruke koblingen for sosiale medier i tittelseksjonen for å fremme hele %TPL_NAME% (overskriftskategorien) og få dem til å lande på starten av %TPL_NAME%.",
+      "socialDisabled": "Dette geoobjektet er kun tilgjengelig med Flytende panel-oppsett",
+      "socialWarning": "Din fortelling bruker Sidepanel-oppsettet, men vi anbefaler nå at dette alternativet kun brukes med Flytende panel-oppsett for å unngå problemer der panelet kanskje ikke kan posisjonere seg til den ønskede delen for fortellinger med bilder. Du kan fortsette å bruke dette alternativet, men hvis du deaktiverer det, vil det kun være tilgjengelig ved bruk av Flytende panel-oppsett."
     },
     "settingsLayoutFonts": {
       "title": "Skrifter",
       "defaultLbl": "Standard",
       "sectionTitleLbl": "Seksjonstittel",
       "sectionContentLbl": "Seksjonsinnhold"
+    },
+    "settingsThemeOptions": {
+      "lblOrgTheme": "Tema for organisasjon",
+      "lblModTheme": "Gjeldende tema"
     },
     "initPopup": {
       "title": "Velkommen til"
@@ -50,9 +56,9 @@ define({
     },
     "addEditViewText": {
       "editorPlaceholder": "Legg til tekst, koblinger og små grafikkelementer her.",
-      "editorActionsTitle": "Handlinger på hovedstadiet",
-      "editorActionsHelpDescr": "Bruk disse kontrollene til å opprette koblinger som vil endre hovedstadiet. Når for eksempel leseren klikker på en kobling, kan det være lurt å zoome inn kartet til en bestemt lokasjon, vise et annet webkart eller vise et bilde.",
-      "mainStageDisabled": "Handlinger på hovedstadiet deaktiveres når redigeringsverktøyet maksimeres"
+      "editorActionsTitle": "Historiehandlinger",
+      "editorActionsHelpDescr": "Opprett koblinger i fortellingen som gjør det enklere å fortelle historien. En historiehandling kan koble til en annen seksjon eller endre hovedområdet. Du kan for eksempel konfigurere en handling som flytter kartet til et annet sted, aktiverer/deaktivere kartlag eller endre medium for hovedområdet til et annet bilde, video, kart eller nettside.",
+      "mainStageDisabled": "Historiehandlinger deaktiveres når redigeringsverktøyet er maksimert"
     },
     "organizePopup": {
       "title": "Organiser",
@@ -66,7 +72,7 @@ define({
       "firstSectionExplain": "(Startseksjonen kan ikke flyttes)",
       "exportMainStage": "Innhold på hovedstadiet",
       "exportPanel": "Panelinnhold",
-      "exportActions": "Handlinger på hovedstadiet"
+      "exportActions": "Historiehandlinger"
     },
     "exportData": {
       "btn": "Eksporter innhold",

@@ -20,13 +20,19 @@ define({
       "cfgMedium": "Mediano",
       "cfgLarge": "Grande",
       "socialLinksLabel": "Mostrar vínculos de uso compartido en la parte inferior de cada sección",
-      "socialLinksDescr": "Esto permite a los lectores hacer referencia a secciones concretas de tu %TPL_NAME% y promocionarlas. Por ejemplo, si usas un icono para compartir secciones, los lectores llegarán a esa sección de %TPL_NAME% y no al comienzo de tu historia. Los lectores pueden usar el vínculo de las redes sociales de la sección de título para promocionar todo tu %TPL_NAME% (pestaña de encabezado) y hacer que los usuarios lleguen al inicio de %TPL_NAME%."
+      "socialLinksDescr": "Esto permite a los lectores hacer referencia a secciones concretas de tu %TPL_NAME% y promocionarlas. Por ejemplo, si usas un icono para compartir secciones, los lectores llegarán a esa sección de %TPL_NAME% y no al comienzo de tu historia. Los lectores pueden usar el vínculo de las redes sociales de la sección de título para promocionar todo tu %TPL_NAME% (pestaña de encabezado) y hacer que los usuarios lleguen al inicio de %TPL_NAME%.",
+      "socialDisabled": "Esta característica solo está disponible con el diseño de Panel flotante",
+      "socialWarning": "Su historia utiliza el diseño de Panel lateral, pero ahora recomendamos utilizar esta opción solo con el diseño de Panel flotante para evitar un problema donde haya posibilidad de que el panel no se coloque en la sección deseada para las narraciones con imágenes. Puede seguir usando esta opción, pero si la deshabilita, solo estará disponible cuando se utilice el diseño de Panel flotante."
     },
     "settingsLayoutFonts": {
       "title": "Fuentes",
       "defaultLbl": "Predeterminado",
       "sectionTitleLbl": "Título de la sección",
       "sectionContentLbl": "Contenido de la sección"
+    },
+    "settingsThemeOptions": {
+      "lblOrgTheme": "Tema de la organización",
+      "lblModTheme": "Tema actual"
     },
     "initPopup": {
       "title": "Bienvenido a"
@@ -50,9 +56,9 @@ define({
     },
     "addEditViewText": {
       "editorPlaceholder": "Agrega aquí texto, vínculos y gráficos pequeños.",
-      "editorActionsTitle": "Acciones del escenario principal",
-      "editorActionsHelpDescr": "Usa estos controles para crear vínculos que cambien el escenario principal. Por ejemplo, cuando el lector hace clic en un vínculo, puedes hacer zoom a una ubicación concreta del mapa o mostrar otro mapa web o una imagen.",
-      "mainStageDisabled": "Las acciones del escenario principal se deshabilitan cuando se maximiza el editor"
+      "editorActionsTitle": "Story Actions",
+      "editorActionsHelpDescr": "Cree vínculos en su narración que ayuden a contar su historia. Una Story Action puede vincularse a otra sección o cambiar el escenario principal. Por ejemplo, puede configurar una acción para mover el mapa a otra ubicación, activar o desactivar capas de mapa, o bien cambiar el medio del escenario principal por una imagen, vídeo, mapa o página web diferentes.",
+      "mainStageDisabled": "Story Actions se deshabilitan cuando se maximiza el editor"
     },
     "organizePopup": {
       "title": "Organizar",
@@ -66,7 +72,7 @@ define({
       "firstSectionExplain": "(La sección de inicio no se puede mover).",
       "exportMainStage": "Contenido del escenario principal",
       "exportPanel": "Contenido del panel",
-      "exportActions": "Acciones del escenario principal"
+      "exportActions": "Story Actions"
     },
     "exportData": {
       "btn": "Exportar contenido",
